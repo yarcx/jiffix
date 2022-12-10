@@ -16,22 +16,20 @@
 // };
 
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-      extend: {
-          colors: {
-                   primary: '#FBA91A', // dark-orange
-                 secondary: '#E6E6E6', // gray
-                 lightGray:"#f2f2f2",
-                 lightPink:"#FBA91A"
-                 
-             
-          },
+    extend: {
+      fontFamily: {
+        monts: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        primary: "#FBA91A", // dark-orange
+        secondary: "#E6E6E6", // gray
+        lightGray: "#f2f2f2",
+        lightPink: "#FBA91A",
+        silver: "#F2F2F2",
+      },
+    },
   },
   plugins: [],
-
-}
-
-
-
+};

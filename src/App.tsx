@@ -4,14 +4,14 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import DemoNavigator from "./components/Molecules/DemoNavigator";
 import Navbar from "./components/Molecules/Navbar";
-import Home from "./pages/Home";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-   <Navbar/>
+    <div className="App font-monts">
+      <Navbar />
       {/* <DemoNavigator /> */}
-      <Home/>
+      <Home />
     </div>
   );
 }

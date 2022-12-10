@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> */
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
@@ -37,11 +41,7 @@
 }
 .back {
   height: 500px;
-  background: linear-gradient(
-    89.85deg,
-    #fba91a 31.31%,
-    rgba(251, 169, 26, 0) 99.88%
-  );
+  background: linear-gradient(89.85deg, #fba91a 31.31%, rgba(251, 169, 26, 0) 99.88%);
 }
 
 hr {
@@ -49,7 +49,11 @@ hr {
   height: 0px;
   border: 4px solid #fba91a;
 }
-.iphone-bg{
-  background: linear-gradient(285.66deg, rgba(251, 169, 26, 0.27) 26.36%, rgba(217, 217, 217, 0.27) 92.62%);
-border-radius: 50px;
+.iphone-bg {
+  background: linear-gradient(
+    285.66deg,
+    rgba(251, 169, 26, 0.27) 26.36%,
+    rgba(217, 217, 217, 0.27) 92.62%
+  );
+  border-radius: 50px;
 }
