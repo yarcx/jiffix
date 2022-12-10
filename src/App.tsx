@@ -3,13 +3,15 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { Link } from "react-router-dom";
 import DemoNavigator from "./components/Molecules/DemoNavigator";
+import Navbar from "./components/Molecules/Navbar";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App font-monts">
-      <h1 className="text-5xl text-center font-bold underline">Jiffix APP</h1>
-
-      <DemoNavigator />
+      <Navbar />
+      {/* <DemoNavigator /> */}
+      <Home />
     </div>
   );
 }
