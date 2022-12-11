@@ -27,7 +27,12 @@ module.exports = {
         secondary: "#E6E6E6", // gray
         lightGray: "#f2f2f2",
         lightPink: "#FBA91A",
+        orange: "#FBA91A",
         silver: "#F2F2F2",
+      },
+      backgroundImage: {
+        iphoneBanner: "url('/src/assets/gateway/iphoneBanner.png')",
+        sectionBeforeFooter: "url('/src/assets/gateway/sectionBeforeFooter.png')",
       },
     },
   },

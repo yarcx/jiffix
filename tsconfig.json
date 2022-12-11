@@ -15,18 +15,18 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-      "@pages/": ["./src/pages/*"],
-      "@components/*": ["./src/components/*"],
-      "@assets/*": ["./src/components/assets/*"],
-      "@data/*": ["./src/components/data/*"],
-      "@hooks/*": ["src/components/hooks/*"],
-      "@interface/*": ["src/components/interface/*"],
-      "@utils/*": ["src/components/utils/*"],
-      "@styles/*": ["styles/*"],
-      "@interfaces/*": ["src/components/types/*"]
-    },
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@pages/": ["./src/pages/*"],
+    //   "@components/*": ["./src/*"],
+    //   "@assets/*": ["./src/components/assets/*"],
+    //   "@data/*": ["./src/components/data/*"],
+    //   "@hooks/*": ["src/components/hooks/*"],
+    //   "@interface/*": ["src/components/interface/*"],
+    //   "@utils/*": ["src/components/utils/*"],
+    //   "@styles/*": ["styles/*"],
+    //   "@interfaces/*": ["src/components/types/*"]
+    // },
     "incremental": true
   },
   "include": ["src"],
