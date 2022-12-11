@@ -49,7 +49,7 @@ const GetStartedSection = () => {
             />
           </div>
           {/* Right side */}
-          <div className="md:w-1/2 w-full flex items-start border borde justify-center md:justify-end">
+          <div className="md:w-1/2 w-full flex items-start justify-center md:justify-end">
             {/* ON Desktop */}
             <div className="w-10/12  bg-iphoneBanner bg-auto bg-top bg-no-repeat md:block hidden h-[100vh] rounded-br-[40px] rounded-bl-[40px]"></div>
 
