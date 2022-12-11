@@ -53,3 +53,7 @@ hr {
   background: linear-gradient(285.66deg, rgba(251, 169, 26, 0.27) 26.36%, rgba(217, 217, 217, 0.27) 92.62%);
 border-radius: 50px;
 }
+
+.stand{
+  background: url(./assets/car_logo.png);
+}
