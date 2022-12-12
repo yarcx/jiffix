@@ -45,7 +45,7 @@ const GetStartedSection = () => {
 
             <GatewayButton
               text="Sign Up"
-              btnClass="bg-black h-[70px] text-white w-full md:w-[250px] mt-10"
+              btnClass="bg-black h-[65px] text-white w-full md:w-[250px] mt-0"
             />
           </div>
           {/* Right side */}
