@@ -13,7 +13,7 @@ import Footer from "../components/Organisms/Gateway/Footer";
 
 const Gateway: FC = () => {
   return (
-    <div>
+    <>
       <GatewayNavbar />
       <HeroSection />
       <SecondSection />
@@ -23,7 +23,7 @@ const Gateway: FC = () => {
       <GetStartedSection />
       <SectionBeforeFooter />
       <Footer />
-    </div>
+    </>
   );
 };
 
