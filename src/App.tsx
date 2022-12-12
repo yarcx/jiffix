@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Molecules/Navbar";
-import Home from "./oldPages/Home";
+import Home from "./pages/Home";
 
 function App() {
   return (
