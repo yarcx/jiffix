@@ -18,7 +18,7 @@ const GetStartedSection = () => {
     <div className="font-monts my-32 min-h-screen">
       <div className="mx-auto justify-center relative md:w-11/12 px-5 md:px-0 flex items-center">
         <div
-          className="md:w-11/12 w-full md:h-[120vh] rounded-[50px] flex flex-col md:flex-row md:pl-20 md:pr-16 px-7 md:pb-32"
+          className="md:w-11/12 w-full md:h-full rounded-[50px] flex flex-col md:flex-row md:pl-20 md:pr-16 px-7 md:pb-10"
           style={{
             backgroundImage:
               "linear-gradient(285.66deg, rgba(251, 169, 26, 0.27) 26.36%, rgba(217, 217, 217, 0.27) 92.62%)",
@@ -45,13 +45,13 @@ const GetStartedSection = () => {
 
             <GatewayButton
               text="Sign Up"
-              btnClass="bg-black h-[65px] text-white w-full md:w-[250px] mt-0"
+              btnClass="bg-black h-[65px] text-white w-full md:w-[250px] mt-10"
             />
           </div>
           {/* Right side */}
           <div className="md:w-1/2 w-full flex items-start justify-center md:justify-end">
             {/* ON Desktop */}
-            <div className="w-10/12  bg-iphoneBanner bg-auto bg-top bg-no-repeat md:block hidden h-[100vh] rounded-br-[40px] rounded-bl-[40px]"></div>
+            <div className="w-10/12 bg-iphoneBanner bg-auto bg-top bg-no-repeat md:block hidden h-[100vh] object-contain rounded-br-[40px] rounded-bl-[40px]"></div>
 
             {/* on Mobile */}
             <img src={mobileIphone} alt="iphone screen" className="md:hidden mt-20" />
