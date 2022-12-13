@@ -57,7 +57,11 @@ const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
         style={{ backgroundColor: !pricing ? "white" : "rgba(251, 169, 26, 0.2)" }}
         className={`${isNavOpen ? "h-[80vh]" : "h-0"} transition-all ease-linear md:hidden`}
       >
-        <ul className="pt-20 flex flex-col items-center justify-center gap-y-9">
+        <ul
+          className={`pt-20  flex-col items-center justify-center gap-y-9 ${
+            isNavOpen ? "opacity-100 flex" : "opacity-0 h-0 hidden"
+          }`}
+        >
           <li>
             <Link to="/">Home</Link>
           </li>

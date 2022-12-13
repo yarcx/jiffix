@@ -13,7 +13,7 @@ import Footer from "../components/Organisms/Gateway/Footer";
 
 const Gateway: FC = () => {
   return (
-    <div>
+    <div className="font-monts ">
       <GatewayNavbar />
       <HeroSection />
       <SecondSection />
