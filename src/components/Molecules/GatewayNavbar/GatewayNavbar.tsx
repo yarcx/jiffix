@@ -4,15 +4,19 @@ import { Link } from "react-router-dom";
 import Logo from "../../../assets/logo.png";
 import Hambugger from "../../../assets/svgs/Hambugger";
 
-const GatewayNavbar = () => {
+const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const handleOpenNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+
   return (
     <>
-      <nav className="h-auto pt-4">
+      <nav
+        style={{ backgroundColor: !pricing ? "white" : "rgba(251, 169, 26, 0.2)" }}
+        className={`h-auto pt-4 bg-[rgba(251, 169, 26, 0.2)]`}
+      >
         <div className="w-11/12 flex items-center justify-between mx-auto h-full ">
           <Link to="/">
             <img src={Logo} alt="logo" className="object-fill" />
@@ -20,7 +24,7 @@ const GatewayNavbar = () => {
 
           <ul className="hidden md:flex items-center gap-x-4 ">
             <li className="mr-5">
-              <Link to="">Pricing</Link>
+              <Link to="/pricing">Pricing</Link>
             </li>
 
             <li>
@@ -34,6 +38,8 @@ const GatewayNavbar = () => {
               </Link>
             </li>
           </ul>
+
+          {/* Hambugger menu to trigger mobile nav */}
           <button
             onClick={handleOpenNav}
             className={`flex items-center justify-center transition md:hidden h-14 w-14 ${
@@ -45,13 +51,18 @@ const GatewayNavbar = () => {
         </div>
       </nav>
 
-      <div className={`${isNavOpen ? "h-[80vh]" : "h-0"} transition-all ease-linear md:hidden`}>
+      {/* Mobile nav starts here */}
+
+      <div
+        style={{ backgroundColor: !pricing ? "white" : "rgba(251, 169, 26, 0.2)" }}
+        className={`${isNavOpen ? "h-[80vh]" : "h-0"} transition-all ease-linear md:hidden`}
+      >
         <ul className="pt-20 flex flex-col items-center justify-center gap-y-9">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Pricing</Link>
+            <Link to="/pricing">Pricing</Link>
           </li>
           <li>
             <GatewayButton text="Sign in" btnClass="bg-primary w-[155px] h-[60px]" />
