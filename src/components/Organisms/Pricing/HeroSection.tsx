@@ -5,8 +5,8 @@ import ellipse2 from "../../../assets/pricing/ellipse2.png";
 const HeroSection = () => {
   return (
     <div style={{ backgroundColor: "rgba(251, 169, 26, 0.2)" }} className=" ">
-      <div className="mx-auto relative min-h-[90vh] md:min-h-screen bg-[rgba(251, 169, 26, 0.2)] items-center pt-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts">
-        <div className="md:w-[51%] -mt-10 md:mt-28 h-[70%] relative">
+      <div className="mx-auto relative min-h-[90vh] md:min-h-screen bg-[rgba(251, 169, 26, 0.2)] items-center pt-10 md:pb-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts">
+        <div className="md:w-[51%] -mt-10 md:mt-20 h-[70%] relative">
           {/* Small Ellipse */}
           <img
             src={ellipse1}
@@ -36,9 +36,9 @@ const HeroSection = () => {
               Pricing for <span className="font-bold">Nigeria</span>
             </p>
 
-            <h2 className="text-2xl md:text-4xl font-bold text-black my-3">Simple, fair Pricing</h2>
+            <h2 className="text-2xl md:text-4xl font-bold text-black my-8">Simple, fair Pricing</h2>
 
-            <p className="text-base md:text-lg mt-2 mb-20 md:mb-3">
+            <p className="text-base md:text-lg mt-10 mb-20 md:mb-3">
               AutoHyve only makes money when you do.
             </p>
 

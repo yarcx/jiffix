@@ -1,7 +1,7 @@
 import GatewayButton from "../../Atoms/Gateway/GatewayButton";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo.png";
+import blackLogo from "../../../assets/blackLogo.png";
 import Hambugger from "../../../assets/svgs/Hambugger";
 
 const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
@@ -19,7 +19,11 @@ const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
       >
         <div className="w-11/12 flex items-center justify-between mx-auto h-full ">
           <Link to="/">
-            <img src={Logo} alt="logo" className="object-fill" />
+            <img
+              src={blackLogo}
+              alt="logo"
+              className="object-cover md:w-[130px] md:h-[83px] w-[85px] h-[50px]"
+            />
           </Link>
 
           <ul className="hidden md:flex items-center gap-x-4 ">
