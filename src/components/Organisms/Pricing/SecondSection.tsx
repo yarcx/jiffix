@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 import ellipse1 from "../../../assets/pricing/ellipse1.png";
 import ellipse2 from "../../../assets/pricing/ellipse2.png";
 
 const SecondSection = () => {
+  const [percentValues, setPercentValues] = useState({
+    settleYou: "3,500",
+    hyveFee: "96,500",
+  });
+  const calculatePercentage = (percentage: number) => {
+    let perc = (30 / 100) * percentage;
+    setPercentValues({ settleYou: perc + "", hyveFee: percentage - perc + "" });
+  };
+
   return (
     <section className="min-h-screen bg-silver">
       <div className="mx-auto relative md:w-11/12 px-5 md:px-0 flex flex-col items-center md:flex-row min-h-[80vh] py-10">
@@ -34,22 +43,32 @@ const SecondSection = () => {
             {/* Input field for money conversion */}
             <div>
               <label className="text-gray text-base font-semibold mb-5">IF A CUSTOMER PAYS</label>
-              <input
-                type="text"
-                defaultValue=" ₦ 100,000.00"
-                className="h-[70px] text-black font-bold text-2xl bg-silver rounded-md px-5 w-full mt-4 outline-0 ring-0 border-0"
-              />
+              <div className="h-[70px] bg-silver flex items-center gap-x-2 rounded-md w-full  px-5  mt-4">
+                <span className="text-black font-bold text-2xl"> ₦ </span>
+                <input
+                  type="number"
+                  onChange={(e) => calculatePercentage(e.target.valueAsNumber)}
+                  defaultValue="100,000.00"
+                  placeholder="100,000.00"
+                  className=" text-black font-bold text-2xl bg-silver w-full  outline-0 ring-0 placeholder:text-black border-0"
+                />
+              </div>
             </div>
 
             {/* Converted Money section */}
             <div className="mt-8 flex justify-between flex-col md:flex-row gap-y-5">
               <div>
                 <label className="text-gray text-base font-semibold mb-5">WE’LL SETTLE YOU</label>
-                <p className="text-white font-bold text-lg"> ₦ 96,500.00</p>
+                <p className="text-white font-bold text-lg">
+                  ₦ <span>{percentValues.hyveFee}</span>
+                  .00
+                </p>
               </div>
               <div>
                 <label className="text-gray text-base font-semibold mb-5">AUTOHYVE FEE’S</label>
-                <p className="text-white font-bold text-lg"> ₦ 3,500.00</p>
+                <p className="text-white font-bold text-lg">
+                  ₦ <span>{percentValues.settleYou}</span>.00
+                </p>
               </div>
             </div>
 
