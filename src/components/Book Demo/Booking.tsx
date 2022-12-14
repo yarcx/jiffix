@@ -8,7 +8,7 @@ const Booking = () => {
   return (
     <section className="w-full h-full flex items-center justify-center">
       <div className="flex w-full h-full items-center justify-center">
-        <div className="flex items-center flex-col justify-center h-[950px] w-full  bg-Bgorange relative">
+        <div className="flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative">
           <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full absolute top-[-80px]"></div>
           <div className="h-full flex  flex-col justify-center">
             {checkListItems.map(({ text }) => (
