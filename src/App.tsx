@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import DemoNavigator from "./components/Molecules/DemoNavigator";
 import Navbar from "./components/Molecules/Navbar";
 import Home from "./pages/Home";
+import Booking from "./components/Book Demo/Booking";
+import Workshop from "./components/Workshop/Workshop";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
    <Navbar/>
       {/* <DemoNavigator /> */}
       <Home/>
+       {/* <Booking/>  */}
+      {/* <Workshop/> */}
     </div>
   );
 }

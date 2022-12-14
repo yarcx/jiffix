@@ -10,7 +10,7 @@ const Navbar = () => {
           <img src={Logo} alt="" />
         </div>
 
-        <ul className="flex  w-1/3 gap-6">
+        <ul className="hidden md:flex w-1/3 gap-6">
           <li>
             <Link to="singin">
               <button className="bg-primary w-40 h-14 rounded">Sign In</button>

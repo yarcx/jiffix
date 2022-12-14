@@ -24,10 +24,26 @@ module.exports = {
                  secondary: '#E6E6E6', // gray
                  lightGray:"#f2f2f2",
                  lightPink:"#FBA91A",
-                 darkGray:"#16222C"
-                 
+                 darkGray:"#16222C",
+                 secGray:"#BDBDBD",
+                 priOrange:"#EA4E1A",
+                   secOrange:"#FEEED1 "
+                
+
+
+  
              
           },
+         
+          backgroundImage: {
+            'hero': "url('./assets/car_background.png')",
+            'jeffix-logo': "url('./assets/car_logo.png')",
+            'workshop-car':"url('./assets/workshop_car.png')"
+            
+           
+            
+          },
+          
       },
   },
   plugins: [],
