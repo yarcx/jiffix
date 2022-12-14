@@ -2,6 +2,7 @@ import DemoNavigator from "./components/Molecules/DemoNavigator";
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Gateway from "./pages/Gateway";
+import Pricing from "./pages/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/gateway",
     element: <Gateway />,
+  },
+  {
+    path: "/pricing",
+    element: <Pricing />,
   },
 ]);
 
