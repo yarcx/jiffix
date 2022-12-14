@@ -33,7 +33,7 @@ border-radius: 50px;
 .back-img {
   background: url(./assets/car_background.png);
 }
-.back {
+.linear_back{
   height: 500px;
   background: linear-gradient(89.85deg, #fba91a 31.31%, rgba(251, 169, 26, 0) 99.88%);
 }
