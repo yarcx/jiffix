@@ -16,39 +16,38 @@
 // };
 
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-      extend: {
-          colors: {
-                   primary: '#FBA91A', // dark-orange
-                 secondary: '#E6E6E6', // gray
-                 lightGray:"#f2f2f2",
-                 lightPink:"#FBA91A",
-                 darkGray:"#16222C",
-                 secGray:"#BDBDBD",
-                 priOrange:"#EA4E1A",
-                   secOrange:"#FEEED1 "
-                
-
-
-  
-             
-          },
-         
-          backgroundImage: {
-            'hero': "url('./assets/car_background.png')",
-            'jeffix-logo': "url('./assets/car_logo.png')",
-            'workshop-car':"url('./assets/workshop_car.png')"
-            
-           
-            
-          },
-          
+    extend: {
+      fontFamily: {
+        monts: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        primary: "#FBA91A", // dark-orange
+        secondary: "#E6E6E6", // gray
+        lightGray: "#f2f2f2",
+        lightPink: "#FBA91A",
+        orange: "#FBA91A",
+        silver: "#F2F2F2",
+        darkGray:"#16222C",
+        lightGray:"#f2f2f2",
+        lightPink:"#FBA91A",
+        darkGray:"#16222C",
+        secGray:"#BDBDBD",
+        priOrange:"#EA4E1A",
+          secOrange:"#FEEED1 "
+       
+                
+      },
+      backgroundImage: {
+        iphoneBanner: "url('/src/assets/gateway/iphoneBanner.png')",
+        sectionBeforeFooter: "url('/src/assets/gateway/sectionBeforeFooter.png')",
+        'hero': "url('./assets/car_background.png')",
+        'jeffix-logo': "url('./assets/car_logo.png')",
+        'workshop-car':"url('./assets/workshop_car.png')"
+        
+      },
+    },
   },
   plugins: [],
-
-}
-
-
-
+};

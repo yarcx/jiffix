@@ -1,6 +1,7 @@
 import DemoNavigator from "./components/Molecules/DemoNavigator";
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
+import Gateway from "./pages/Gateway";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         <DemoNavigator />
       </div>
     ),
+  },
+  {
+    path: "/gateway",
+    element: <Gateway />,
   },
 ]);
 

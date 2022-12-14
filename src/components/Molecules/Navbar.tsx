@@ -17,10 +17,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="singin">
-              <button className="bg-secondary w-44 h-14 rounded">
-                Start FREE Trial
-              </button>
+            <Link to="/gateway">
+              <button className="bg-secondary w-44 h-14 rounded">Start FREE Trial</button>
             </Link>
           </li>
         </ul>
