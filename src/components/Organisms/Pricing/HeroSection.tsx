@@ -4,8 +4,14 @@ import ellipse2 from "../../../assets/pricing/ellipse2.png";
 
 const HeroSection = () => {
   return (
-    <div style={{ backgroundColor: "rgba(251, 169, 26, 0.2)" }} className=" ">
-      <div className="mx-auto relative min-h-[90vh] md:min-h-screen bg-[rgba(251, 169, 26, 0.2)] items-center pt-10 md:pb-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts">
+    <section style={{ backgroundColor: "rgba(251, 169, 26, 0.2)" }} className=" ">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+        className="mx-auto relative min-h-[90vh] md:min-h-screen items-center pt-10 md:pb-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts"
+      >
         <div className="md:w-[51%] -mt-10 md:mt-20 h-[70%] relative">
           {/* Small Ellipse */}
           <img
@@ -65,7 +71,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

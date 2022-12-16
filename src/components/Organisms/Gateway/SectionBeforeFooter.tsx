@@ -5,13 +5,12 @@ import cage from "../../../assets/gateway/sectionBeforeFooter.png";
 const SectionBeforeFooter = () => {
   return (
     <div
-      style={{
-        backgroundImage: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
-        // backgroundImage: `linear-gradient(to right, red , yellow)`,
-      }}
-      className="h-[142px]"
+      // style={{
+      //   backgroundImage: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
+      // }}
+      className="h-[142px] whiteLinearGd"
     >
-      <div className="bg-sectionBeforeFooter bg-auto h-full"></div>
+      <div className="bg-sectionBeforeFooter whiteLinearGd bg-auto h-full"></div>
     </div>
   );
 };

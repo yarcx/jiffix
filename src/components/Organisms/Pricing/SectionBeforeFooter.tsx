@@ -6,7 +6,13 @@ const SectionBeforeFooter = () => {
   return (
     <section className="section h-[45vh] bg-silver">
       <div className="w-11/12 mx-auto h-full flex items-center flex-col md:flex-row">
-        <div className="md:w-8/12 h-full pt-10 md:pt-0 flex flex-col items-center md:items-start md:justify-center relative">
+        <div
+          data-aos="fade-up-left"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+          className="md:w-8/12 h-full pt-10 md:pt-0 flex flex-col items-center md:items-start md:justify-center relative"
+        >
           <p className="text-md text-center md:text-left md:text-2xl mb-5">Try AutoHyve Now</p>
 
           <h1 className="font-bold text-3xl px-5 md:px-0 md:text-5xl text-center md:text-left leading-normal">
@@ -20,7 +26,13 @@ const SectionBeforeFooter = () => {
             className="absolute left-10 top-10 w-[80px] h-[80px]  md:hidden"
           />
         </div>
-        <div className="h-full flex items-center md:w-4/12 md:justify-end">
+        <div
+          data-aos="fade-up-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="linear"
+          className="h-full flex items-center md:w-4/12 md:justify-end"
+        >
           <GatewayButton
             text="Create a free account"
             btnClass="bg-black text-white font-normal px-5 h-[65px] mt-10 md:mt-0"
