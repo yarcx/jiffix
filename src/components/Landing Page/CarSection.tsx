@@ -13,6 +13,9 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Car from "../../assets/car-silver.png";
+import Jiffix from "../../assets/lit_jeff.png";
+
+
 const CarSection = () => {
   const [active, setActive] = useState(0);
   useEffect(() => {
@@ -32,11 +35,11 @@ const CarSection = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="w-full flex items-center justify-center bg-black  mt-10 md:m-0">
+    <section className="w-full flex items-center justify-center bg-black  mt-10 md:mt-0 pb-20">
       <div className="w-11/12 flex items-center flex-col justify-between">
         <div className="flex items-center flex-col gap-6 mb-10">
-          <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] mt-20"></div>
-          <p className="text-white">POWERED BY jeffix©</p>
+          <div className="border-b-4 border-primary w-[80px]  md:w-[300px] mt-24"></div>
+          <p className="text-white flex items-center gap-2 md:mt-10">POWERED BY <img src={Jiffix} alt="jiffix loggo" /></p>
         </div>
         <p className="text-white text-3xl md:w-[894px] w-full text-center">
           Democratizing access to vehicle data in Africa and enabling amazing experiences
@@ -68,9 +71,9 @@ const CarSection = () => {
           data-aos="zoom-out-down"
           className="relative md:my-8 md:w-[1000px] h-[400px] md:h-[864px]  flex items-center justify-center"
         >
-          <div className="bg-jeffix-logo bg-center absolute z-3 bg-no-repeat bg-contain text-white  flex items-center justify-center w-[290px] h-[243px] md:w-[900px] md:h-[710px] ">
-            <div className="rounded-full w-[240px] h-[250px] md:w-[650px] md:h-[700px] absolute border-4 border-yellow-500 z-2">
-              <CarIcon active={active == 0} />
+          <div className="bg-jeffix-logo bg-center absolute z-3 bg-no-repeat bg-contain text-white  flex items-center justify-center w-[290px] h-[243px] md:w-[800px] md:h-[470px] ">
+            <div className="rounded-full w-[240px] h-[250px] md:w-[450px] md:h-[500px] absolute border-4 border-yellow-500 z-2">
+            <CarIcon active={active == 0} />
               <BusIcon active={active == 1} />
               <BicycleIcon active={active == 5} />
               <TruckIcon active={active == 4} />
@@ -79,13 +82,14 @@ const CarSection = () => {
             <img
               src={Car}
               alt=""
-              className="w-[300px] h-[180px] md:w-[900px] md:h-[384px] absolute z-1"
+              className="w-[300px] h-[180px] md:w-[600px] md:h-[350px] absolute z-1"
             />
           </div>
         </div>
-        <p className="text-white md:w-[670px] md:h-[280px] text-center pb-12 text-lg md:my-10">
-          AutoHyve as a Software-as-a-Service platform standardizes and analyzes vehicle repair and
-          health data to generate real-time insights in their millions.
+        <p className="text-white md:w-[826px] md:h-[280px] text-center pb-12 text-lg md:my-10">
+          AutoHyve as a Software-as-a-Service platform standardizes and analyzes
+          vehicle repair and health data to generate real-time insights in their
+          millions.
           <br />
           <br />
           With this information, we give businesses and organizations across the automotive and
