@@ -8,7 +8,7 @@ const SecondSection = () => {
     AOS.init();
   }, []);
   return (
-    <section className="w-full flex items-center justify-center mt-10 mb-20">
+    <section className="w-full flex items-center justify-center mt-20 mb-20">
       <div
         data-aos="zoom-in"
         className="flex items-center flex-col justify-center w-11/12  gap-10 md:p-10 px-5  md:mb-4"
