@@ -8,18 +8,20 @@ import CorouselSection from "../components/Landing Page/CarouselSection";
 import BusinessSection from "../components/Landing Page/BusinessSection";
 import CarSection from "../components/Landing Page/CarSection";
 import BrandSection from "../components/Landing Page/BrandSection";
-
+import Footer from "../components/Organisms/Gateway/Footer";
 
 const Home = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-10">
-      <Hero />
-      <SecondSection />
-      <CorouselSection />
-      <BusinessSection />
-      <CarSection />
-      <BrandSection />
-      
+    <div>
+      <div className="w-full flex flex-col justify-center items-center gap-10">
+        <Hero />
+        <SecondSection />
+        <CorouselSection />
+        <BusinessSection />
+        <CarSection />
+        <BrandSection />
+      </div>
+      <Footer />
     </div>
   );
 };
