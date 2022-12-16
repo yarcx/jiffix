@@ -11,11 +11,11 @@ const SecondSection = () => {
           data-aos-easing="linear"
           className="mx-auto relative md:w-11/12 px-5 md:px-0"
         >
-          <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
+          <div className="w-[80px] md:w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
 
-          <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-3xl">
+          <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-2xl md:text-3xl">
             AI-Powered Software and Invoicing Platform for
-            <br /> Automotive Workshops
+            <br className="hidden md:block" /> Automotive Workshops
           </h1>
 
           <div className="text-center font-normal md:mx-auto  text-lg mt-10 md:w-10/12 md:px-6">
@@ -40,10 +40,10 @@ const SecondSection = () => {
           className="pt-20 mt-10 "
         >
           <div className="mx-auto relative md:w-11/12 px-5 md:px-0">
-            <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
-            <h1 className="mb-10 text-center leading-normal font-bold text-black text-3xl">
-              AutoHyve is Opening a New World of Opportunity for Automotive <br /> Service Providers
-              in Africa
+            <div className="w-[80px] md:w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
+            <h1 className="mb-10 text-center leading-normal font-bold text-black text-2xl md:text-3xl">
+              AutoHyve is Opening a New World of Opportunity for Automotive{" "}
+              <br className="hidden md:block" /> Service Providers in Africa
             </h1>
           </div>
         </div>

@@ -17,7 +17,7 @@ const MobileNav = ({
   return (
     <div
       style={{ backgroundColor: !pricing ? "white" : "rgba(251, 169, 26, 0.2)" }}
-      className={`${isNavOpen ? "h-[85vh]" : "h-0"} transition-all ease-linear md:hidden`}
+      className={`${isNavOpen ? "h-[85vh]" : "h-0"} transition-all ease-linear md:hidden w-full`}
     >
       {!landingPage && (
         <ul
@@ -65,6 +65,28 @@ const MobileNav = ({
             <GatewayButton text="Start FREE Trial" btnClass="bg-silver w-[155px] h-[60px]" />
           </li> */}
         </ul>
+      )}
+
+      {isNavOpen && (
+        <div className={`w-10/12 mx-auto`}>
+          <div className="border-b-[0.5px] border-primary my-20"></div>
+
+          <div className="flex items-center justify-between">
+            <Link to="/business">
+              <GatewayButton
+                text="Businesses"
+                btnClass="bg-silver flex items-center text-center justify-center text-sm rounded-[34px] w-[120px] px-6 h-[43px]"
+              />
+            </Link>
+
+            <Link to="/workshop">
+              <GatewayButton
+                text="Workshops"
+                btnClass="lightOrangeBg text-sm flex items-center text-center justify-center rounded-[34px] w-[120px] px-6 h-[43px]"
+              />
+            </Link>
+          </div>
+        </div>
       )}
     </div>
   );
