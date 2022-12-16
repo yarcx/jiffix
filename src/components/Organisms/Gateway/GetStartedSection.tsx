@@ -18,10 +18,6 @@ const GetStartedSection = () => {
     <div className="font-monts my-32 min-h-screen">
       <div className="mx-auto justify-center relative md:w-11/12 px-5 md:px-0 flex items-center">
         <div
-          data-aos="zoom-in-up"
-          data-aos-delay="200"
-          data-aos-duration="1000"
-          data-aos-easing="linear"
           className="md:w-11/12 w-full md:h-full rounded-[50px] flex flex-col md:flex-row md:pl-20 md:pr-16 px-7 md:pb-10"
           style={{
             backgroundImage:

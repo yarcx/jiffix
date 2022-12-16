@@ -2,15 +2,9 @@ import React from "react";
 
 const SecondSection = () => {
   return (
-    <div className="min-h-screen">
+    <div className="font-monts  min-h-screen">
       <section className="font-monts mt-20 mb-20 ">
-        <div
-          data-aos="fade-down"
-          data-aos-delay="200"
-          data-aos-duration="1000"
-          data-aos-easing="linear"
-          className="mx-auto relative md:w-11/12 px-5 md:px-0"
-        >
+        <div className="mx-auto relative  md:w-11/12 px-5 md:px-0">
           <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
           <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-3xl">
             AI-Powered Software and Analytics Platform for the <br />
@@ -30,13 +24,7 @@ const SecondSection = () => {
           </div>
         </div>
         {/* second yellow line */}
-        <div
-          data-aos="fade-up"
-          data-aos-delay="100"
-          data-aos-duration="1000"
-          data-aos-easing="linear"
-          className="pt-20 mt-20 "
-        >
+        <div className="pt-20 mt-20 ">
           <div className="mx-auto relative md:w-11/12 px-5 md:px-0">
             <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
             <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-3xl">

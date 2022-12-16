@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import GatewayButton from "../../Atoms/Gateway/GatewayButton";
 
 import company1 from "../../../assets/gateway/logo_cfao_1.png";
@@ -14,14 +14,8 @@ const HeroImages = ({ src, alt }: { src: string; alt: string }) => {
 
 const HeroSection = () => {
   return (
-    <section className="font-monts">
-      <div
-        data-aos="fade-up"
-        data-aos-delay="200"
-        data-aos-duration="1000"
-        data-aos-easing="linear"
-        className="mx-auto relative  min-h-screen bg-white items-start pt-24  flex md:w-11/12 px-5 md:px-0"
-      >
+    <section className=" font-monts">
+      <div className="mx-auto relative  min-h-screen bg-white items-start pt-24  flex md:w-11/12 px-5 md:px-0">
         {/* left side */}
         <div className="w-full md:w-6/12 relative ">
           <img
