@@ -83,11 +83,10 @@ const FirstCarousel = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
-        <Link to="singin">
-          <button className="bg-secondary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
-            Start FREE Trial
-          </button>
-        </Link>
+      <Link to="/gateway" className="relative">
+            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+          </Link>
 
         <Link to="singin">
           <button className="bg-primary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
@@ -127,11 +126,10 @@ const SecondCarousel = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
-        <Link to="singin">
-          <button className="bg-secondary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
-            Start FREE Trial
-          </button>
-        </Link>
+      <Link to="/gateway" className="relative">
+            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+          </Link>
 
         <Link to="singin">
           <button className="bg-primary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
@@ -171,11 +169,10 @@ const ThirdCarousel = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10   md:ml-36 md:items-center items-center w-11/12 my-6 md:m-0">
-        <Link to="singin">
-          <button className="bg-secondary md:w-[270px] w-[155px] md:h-[75px] h-[50px] rounded-lg">
-            Start FREE Trial
-          </button>
-        </Link>
+      <Link to="/gateway" className="relative">
+            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+          </Link>
 
         <Link to="singin">
           <button className="bg-primary  md:w-[270px] w-[155px] md:h-[75px] h-[50px] rounded-lg">Book a Demo</button>

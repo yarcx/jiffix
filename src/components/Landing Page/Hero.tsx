@@ -23,9 +23,12 @@ const Hero = () => {
             The most powerful and simplest way for Businesses to centralize all vehicle repair data
             in one place and uncover cost-saving insights
           </p>
-          <Link to="singin">
+          <Link to="/gateway" className="relative">
             <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
+     
+              
         </div>
       </div>
     </section>

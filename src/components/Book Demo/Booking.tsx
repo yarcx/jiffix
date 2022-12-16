@@ -50,7 +50,7 @@ const Booking = () => {
             <Input type="text" placeholder="Workshop Name" />
             <Input type="number" placeholder="Phone Number" />
             <Input type="email" placeholder="Work Email" />
-            <button className="bg-primary w-[246px] h-[60px] rounded-lg mb-24 mt-6" type="submit">
+            <button className="bg-primary w-[246px] h-[60px] rounded-lg mb-6 md:mb-24 mt-6" type="submit">
               Submit
             </button>
           </form>
