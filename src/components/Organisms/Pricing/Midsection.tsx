@@ -16,7 +16,14 @@ const Thirdsection = () => {
           alt="ellipse1"
           className="absolute md:right-[22%] md:-top-7 z-10 md:w-[400px] w-[200px] h-[200px] -right-10 -bottom-20 md:h-[400px]"
         />
-        <div className="md:pl-10 mt-24">
+        <div
+          className="md:pl-10 mt-24"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="top-center"
+          data-aos-easing="linear"
+        >
           <h1 className="md:text-5xl text-4xl font-bold mb-2">What do you get for this price?</h1>
           <p className="md:mt-5 text-base">
             AutoHyve is the Operating System for Workshops of every size and at every scale
@@ -25,7 +32,12 @@ const Thirdsection = () => {
 
         <div className="font-monts mt-24 min-h-[50vh] ">
           <div className="mx-auto flex-col-reverse md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center">
-            <div className="w-full md:w-1/2 md:pr-14 relative">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="w-full md:w-1/2 md:pr-14 relative"
+            >
               <h1 className="text-black text-center md:text-left text-[24px] md:text-[28px] leading-2 font-bold mb-10">
                 Delight your customers with a ditigitized repair experience
               </h1>
@@ -41,7 +53,12 @@ const Thirdsection = () => {
                 className="absolute md:-left-10 z-10  w-[150px] h-[150px] -bottom-10 "
               />
             </div>
-            <div className="w-full flex h-full justify-center mb-10 md:mb-0 md:w-5/12">
+            <div
+              data-aos="flip-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="w-full flex h-full justify-center mb-10 md:mb-0 md:w-5/12"
+            >
               <img src={smilingStar} alt="Serve Automotive Service Customer" className=" " />
             </div>
           </div>
@@ -56,9 +73,20 @@ export const FourthSection = () => {
     <div className="font-monts relative my-32 min-h-[50vh]">
       <div className="mx-auto flex-col md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center justify-between">
         <div className="w-full justify-center flex md:w-1/2 md:pl-14 mb-10 md:mb-0">
-          <img src={redSignpost} alt="Serve Automotive Service Customer" />
+          <img
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            src={redSignpost}
+            alt="Serve Automotive Service Customer"
+          />
         </div>
-        <div className="w-full md:w-1/2">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          className="w-full md:w-1/2"
+        >
           <h1 className="text-black text-center md:text-right text-[24px] md:text-[28px] leading-2 leading-2 font-bold mb-10">
             AI-Powered Service Advisor
             <br className="block " /> Support
@@ -83,7 +111,12 @@ export const FifthSection = () => {
   return (
     <div className="font-monts mt-16 mb-32 min-h-[50vh] relative">
       <div className="mx-auto flex-col-reverse md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center">
-        <div className="w-full md:w-1/2 md:pr-14">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          className="w-full md:w-1/2 md:pr-14"
+        >
           <h1 className="text-black text-center md:text-left text-[24px] md:text-[28px] leading-2 font-bold mb-10">
             Listing for Visibility on AutoHyve <br /> Platform
           </h1>
@@ -95,7 +128,13 @@ export const FifthSection = () => {
           </p>
         </div>
         <div className="w-full mb-10 flex justify-center md:mb-0 md:w-5/12">
-          <img src={bluePolygon} alt="Serve Automotive Service Customer" />
+          <img
+            data-aos="flip-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            src={bluePolygon}
+            alt="Serve Automotive Service Customer"
+          />
         </div>
       </div>
       {/* BIg Ellipse */}
@@ -113,14 +152,25 @@ export const SixtSection = () => {
     <div className="font-monts mt-16 mb-32 min-h-[70vh]  ">
       <div className="mx-auto flex-col md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center justify-between">
         <div className="w-full justify-center flex md:w-1/2 md:pl-14 mb-10 md:mb-0 relative">
-          <img src={greenNotif} alt="Serve Automotive Service Customer" />
+          <img
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            src={greenNotif}
+            alt="Serve Automotive Service Customer"
+          />
           <img
             src={ellipse1}
             alt="ellipse1"
             className="absolute md:left-23 -z-10  w-[150px] h-[150px] -bottom-14 "
           />
         </div>
-        <div className="w-full md:w-1/2">
+        <div
+          className="w-full md:w-1/2"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <h1 className="text-black text-center md:text-right text-[24px] md:text-[28px] leading-2 leading-2 font-bold mb-5">
             Automatic Customer Payment
             <br className="block " /> Reminders

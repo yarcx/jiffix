@@ -27,8 +27,7 @@ const BrandSection = () => {
           </h1>
         </div>
         <p data-aos="zoom-in-left" className="text-center text-lg md:w-[550px]">
-          Just some of the ground breaking businesses and organizations we work
-          in partnership with.
+          Just some of the ground breaking businesses and organizations we work in partnership with.
         </p>
         <div
           data-aos="zoom-in-left"
@@ -44,11 +43,7 @@ const BrandSection = () => {
             alt="ngk logo"
             className="w-[45px] h-[14px] md:w-[145.88px] md:h-[48.03px]"
           />
-          <img
-            src={Aws}
-            alt="Aws logo"
-            className="w-[45px] h-[14px] md:w-[106.65px] md:h-[65px]"
-          />
+          <img src={Aws} alt="Aws logo" className="w-[45px] h-[14px] md:w-[106.65px] md:h-[65px]" />
         </div>
         <div
           data-aos="zoom-in-right"

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   BicycleIcon,
   BusIcon,
@@ -17,8 +17,22 @@ import Jiffix from "../../assets/lit_jeff.png";
 
 
 const CarSection = () => {
+  const [active, setActive] = useState(0);
   useEffect(() => {
     AOS.init();
+  }, []);
+
+  useEffect(() => {
+    let interval = setInterval(() => {
+      setActive((prev) => {
+        if (prev < 5) {
+          return (prev += 1);
+        } else {
+          return (prev = 0);
+        }
+      });
+    }, 3000);
+    return () => clearInterval(interval);
   }, []);
   return (
     <section className="w-full flex items-center justify-center bg-black  mt-10 md:m-0">
@@ -28,8 +42,7 @@ const CarSection = () => {
           <p className="text-white flex items-center gap-2 md:mt-10">POWERED BY <img src={Jiffix} alt="jiffix loggo" /></p>
         </div>
         <p className="text-white text-3xl md:w-[894px] w-full text-center">
-          Democratizing access to vehicle data in Africa and enabling amazing
-          experiences
+          Democratizing access to vehicle data in Africa and enabling amazing experiences
         </p>
         <div className="flex items-center md:justify-between justify-around  text-white w-full md:w-11/12  pt-10 md:text-lg text-[10px] flex-wrap p-10">
           <div className="flex items-center justify-center gap-4 mb-6">
@@ -60,11 +73,11 @@ const CarSection = () => {
         >
           <div className="bg-jeffix-logo bg-center absolute z-3 bg-no-repeat bg-contain text-white  flex items-center justify-center w-[290px] h-[243px] md:w-[900px] md:h-[547px] ">
             <div className="rounded-full w-[240px] h-[250px] md:w-[550px] md:h-[600px] absolute border-4 border-yellow-500 z-2">
-              <CarIcon />
-              <BusIcon />
-              <BicycleIcon />
-              <TruckIcon />
-              <TractorIcon /> <VanIcon />
+            <CarIcon active={active == 0} />
+              <BusIcon active={active == 1} />
+              <BicycleIcon active={active == 5} />
+              <TruckIcon active={active == 4} />
+              <TractorIcon active={active == 2} /> <VanIcon active={active == 3} />
             </div>
             <img
               src={Car}
@@ -79,10 +92,9 @@ const CarSection = () => {
           millions.
           <br />
           <br />
-          With this information, we give businesses and organizations across the
-          automotive and mobility value chain the power to take control of their
-          greatest assets, innovate, drive growth, transform communities, save
-          lives and improve the world we live in.
+          With this information, we give businesses and organizations across the automotive and
+          mobility value chain the power to take control of their greatest assets, innovate, drive
+          growth, transform communities, save lives and improve the world we live in.
         </p>
       </div>
     </section>

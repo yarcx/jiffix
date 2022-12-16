@@ -29,7 +29,7 @@ const ThirdSection = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="w-full mb-10 md:mb-0 md:w-5/12"
+          className="w-full mb-10 md:mb-0 md:w-6/12 flex justify-end"
         >
           <img src={thirdSection1} alt="Serve Automotive Service Customer" />
         </div>
@@ -47,7 +47,7 @@ const FourthSection = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="w-full md:w-1/2 md:pl-14 mb-10 md:mb-0"
+          className="w-full md:w-1/2 flex jusify-start mb-10 md:mb-0"
         >
           <img src={thirdSection2} alt="Serve Automotive Service Customer" />
         </div>
