@@ -79,7 +79,7 @@ const FirstCarousel = () => {
           </div>
         </div>
         <div className="flex items-center justify-center  mb-[-50px]">
-          <img src={Safari} alt="" />
+          <img src={Safari} alt="safari logo" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
@@ -123,7 +123,7 @@ const SecondCarousel = () => {
           </div>
         </div>
         <div className="flex items-center justify-center  mb-[-50px]">
-          <img src={Dashboard} alt="" />
+          <img src={Dashboard} alt="dashboard logo" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
@@ -167,7 +167,7 @@ const ThirdCarousel = () => {
       
         </div>
         <div className="md:w-[500px]">
-          <img src={SafariBrowser} alt="" className="md:w-full"/>
+          <img src={SafariBrowser} alt="safari browser logo" className="md:w-full"/>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10   md:ml-36 md:items-center items-center w-11/12 my-6 md:m-0">

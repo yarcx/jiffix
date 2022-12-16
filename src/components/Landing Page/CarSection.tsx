@@ -14,6 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Car from "../../assets/car-silver.png";
 const CarSection = () => {
+  
   useEffect(() => {
     AOS.init();
   }, []);
@@ -72,7 +73,7 @@ const CarSection = () => {
             />
           </div>
         </div>
-        <p className="text-white md:w-[670px] md:h-[280px] text-center pb-12 text-lg">
+        <p className="text-white md:w-[670px] md:h-[280px] text-center pb-12 text-lg md:my-10">
           AutoHyve as a Software-as-a-Service platform standardizes and analyzes
           vehicle repair and health data to generate real-time insights in their
           millions.
