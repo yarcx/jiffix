@@ -8,7 +8,7 @@ const Hero = () => {
     AOS.init();
   }, []);
   return (
-    <section className="w-full bg-hero h-[86vh]">
+    <section className="w-full bg-hero h-[86vh] bg-no-repeat bg-cover">
       <div className="linear_back  md:md_back h-full items-center flex flex-col justify-center w-full">
         <div
           data-aos="fade-right"

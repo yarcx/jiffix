@@ -88,7 +88,7 @@ const BusinessSection = () => {
                   </p>
                 </div>
 
-                <button className="bg-black w-[250px] h-14 text-white rounded-lg">
+                <button className="bg-black w-[250px] h-[45px] text-white rounded-lg">
                   Sign Up
                 </button>
               </div>

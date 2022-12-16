@@ -71,12 +71,12 @@ const FirstCarousel = () => {
             Save up to 25% on your annual maintenance cost
           </h1>
           <div>
-            <p className="text-left md:text-center text-lg w-[265px] md:w-[700px] my-6">
+            <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[700px] my-6">
               Benefit from AI-powered recommendations that flag active warranties, wrong/false
               billing, sub-standard parts, fundamental problems in vehicles, and predict part
               failures with built-in machine learning on a simple user-friendly interface.
             </p>
-            <p className="text-left md:text-center text-lg w-[265px] md:w-[700px] my-6">
+            <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[700px] my-6">
               {" "}
               Check every estimate sent by your workshop or mechanic, against your local repair
               history and global library for your vehicle.
@@ -89,12 +89,12 @@ const FirstCarousel = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
       <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
             <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
 
         <Link to="singin">
-          <button className="bg-primary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
+          <button className="bg-primary  w-[270px] h-[75px] rounded-lg">
             Book a Demo
           </button>
         </Link>
@@ -112,13 +112,13 @@ const SecondCarousel = () => {
             Make Decisions Easier and Faster
           </h1>
           <div className="">
-            <p className="text-left md:text-center text-lg md:w-[670px]  ">
+            <p className="text-left md:text-center text-sm md:text-lg md:w-[670px]  ">
               AutoHyve saves you time on reporting by making data easily
               accessible for self-service analytics, with built-in business
               intelligence
             </p>
 
-            <p className="text-left md:text-center text-lg w-[265px] md:w-[700px] my-6">
+            <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[700px] my-6">
               {" "}
               Your decision does not need to depend on excel sheets and formulas computation which
               takes days and weeks. Rather, your decision becomes more dynamic every day with global
@@ -132,12 +132,12 @@ const SecondCarousel = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
       <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
             <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
 
         <Link to="singin">
-          <button className="bg-primary w-[155px] h-[50px] md:w-[270px] md:h-[75px] rounded-lg">
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg">
             Book a Demo
           </button>
         </Link>
@@ -156,11 +156,11 @@ const ThirdCarousel = () => {
     >
       <div className="flex items-center justify-betweenm gap-6 md:gap-20 flex-col md:flex-row">
         <div className="flex items-center md:items-start flex-col justify-center md:w-[618px]  ">
-          <p className="text-left md:text-center text-lg w-[265px] md:w-[618px] my-6">
+          <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[618px] my-6">
             AutoHyve’s easy-to-use workshops gateway enables you to connect directly with your
             trusted workshops. Streamline approvals and capture all repair data automatically.
           </p>
-          <p className="text-left md:text-center text-lg w-[265px] md:w-[618px] ">
+          <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[618px] ">
             {" "}
             Benefit from our extensive network of trusted service providers. We work with 15
             workshops (and growing!) across 6 cities.
@@ -170,14 +170,14 @@ const ThirdCarousel = () => {
           <img src={SafariBrowser} alt="safari browser logo" className="md:w-full" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10   md:ml-36 md:items-center items-center w-11/12 my-6 md:m-0">
+      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
       <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
             <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
 
         <Link to="singin">
-          <button className="bg-primary  md:w-[270px] w-[155px] md:h-[75px] h-[50px] rounded-lg">
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg">
             Book a Demo
           </button>
         </Link>
