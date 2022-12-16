@@ -20,7 +20,7 @@ const BusinessSection = () => {
   }, []);
   return (
     <section className="w-full flex items-center justify-center">
-      <div className="w-[360px] md:w-11/12 flex items-center flex-col justify-between iphone-bg md:mb-10">
+      <div className="w-[360px] md:w-11/12 flex items-center flex-col justify-between iphone-bg md:mb-10 mt-20">
         <div className=" md:w-11/12 flex md:items-center flex-col md:flex-row justify-around gap-4 md:pr-8 pt-10 md:pb-10">
           <h1 className=" text-lg md:text-3xl font-bold ">
             Business Use Cases
