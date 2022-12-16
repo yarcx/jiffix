@@ -45,24 +45,26 @@ const HeroSection = () => {
             </p>
           </div>
           {/* Button sections */}
-          <div className="mb-8 flex items-cneter md:justify-start justify-between md:gap-x-7">
+          <div className="mb-8 mt-20 flex items-cneter md:justify-start justify-between md:gap-x-7">
             <GatewayButton
               text="Create a free account"
-              btnClass="bg-orange h-[60px] md:h-[70px] text-sm px-4 md:px-6 text-center flex items-center justify-center md:text-base  md:w-[240px]"
+              btnClass="bg-orange h-[60px] md:h-[70px] text-xs px-4 md:px-6 text-center flex items-center justify-center md:text-base w-[180px]  md:w-[240px]"
             />
             <GatewayButton
               text="Request Demo"
-              btnClass="bg-silver md:text-base h-[60px] md:h-[70px] text-sm px-6 md:px-6 text-center flex items-center justify-center md:w-[240px]"
+              btnClass="bg-silver md:text-base h-[60px] md:h-[70px] text-xs px-6 md:px-6 text-center flex items-center justify-center w-[180px]  md:w-[240px]"
             />
           </div>
 
           {/* dashboard Image that shows on mobile */}
-          <div className="md:hidden my-5">
+          <div className="md:hidden my-16">
             <img src={heroBanner} alt="hero Banner" className="aspect-auto" />
           </div>
           {/* Trusted by companies */}
           <div className="flex md:items-start items-center flex-col justify-center md:justify-start">
-            <p className="font-normal text-sm leading-8">TRUSTED BY REPUTABLE WORKSHOPS</p>
+            <p className="font-normal text-xs md:text-sm leading-8">
+              TRUSTED BY REPUTABLE WORKSHOPS
+            </p>
             <div className="my-3 flex items-center gap-x-4 md:gap-x-8">
               <HeroImages src={company1} alt="first company" />
               <HeroImages src={company2} alt="second company" />

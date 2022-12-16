@@ -34,7 +34,14 @@ border-radius: 50px;
 }
 .linear_back {
   height: 500px;
-  background: linear-gradient(89.85deg, #fba91a 31.31%, rgba(251, 169, 26, 0) 99.88%);
+  background: linear-gradient(to bottom, #fba91a 54.68%, rgba(251, 169, 26, 0.42) 99.88%);
+}
+
+@media screen and (min-width: 680px) {
+  .linear_back {
+    height: 500px;
+    background: linear-gradient(89.85deg, #fba91a 31.31%, rgba(251, 169, 26, 0) 99.88%);
+  }
 }
 
 hr {

@@ -9,7 +9,7 @@ import greenNotif from "../../../assets/pricing/greenNotif.png";
 const Thirdsection = () => {
   return (
     <section className="min-h-screen bg-white">
-      <div className="mx-auto md:w-11/12 px-5 md:px-0 py-10 relative">
+      <div className="mx-auto md:w-11/12 px-5 md:px-0 py-5 relative">
         {/* BIg Ellipse */}
         <img
           src={ellipse2}
@@ -20,12 +20,12 @@ const Thirdsection = () => {
           className="md:pl-10 mt-24"
           data-aos="fade-up"
           data-aos-delay="100"
-          data-aos-duration="1000"
+          data-aos-duration="200"
           data-aos-anchor-placement="top-center"
           data-aos-easing="linear"
         >
           <h1 className="md:text-5xl text-4xl font-bold mb-2">What do you get for this price?</h1>
-          <p className="md:mt-5 text-base">
+          <p className="mt-5 text-sm md:text-base">
             AutoHyve is the Operating System for Workshops of every size and at every scale
           </p>
         </div>
@@ -38,10 +38,10 @@ const Thirdsection = () => {
               data-aos-duration="1000"
               className="w-full md:w-1/2 md:pr-14 relative"
             >
-              <h1 className="text-black text-center md:text-left text-[24px] md:text-[28px] leading-2 font-bold mb-10">
+              <h1 className="text-black text-center md:text-left text-lg md:text-[28px] leading-2 font-bold mb-5 md:mb-10">
                 Delight your customers with a ditigitized repair experience
               </h1>
-              <p className="text-sm md:text-base md:text-left text-center leading-7 pb-5 md:pr-0">
+              <p className="text-sm md:text-base md:text-left text-center leading-7 pb-5 md:pr-0 ">
                 Give your customers the gift of modern, automated and AI-powered automotive repair
                 estimates. Send them an AutoHyve estimate and help them organize all their data in
                 once place.
@@ -72,7 +72,7 @@ export const FourthSection = () => {
   return (
     <div className="font-monts relative my-32 min-h-[50vh]">
       <div className="mx-auto flex-col md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center justify-between">
-        <div className="w-full justify-center flex md:w-1/2 md:pl-14 mb-10 md:mb-0">
+        <div className="w-full justify-center flex md:w-1/2 md:pl-14 mb-20 md:mb-0">
           <img
             data-aos="flip-left"
             data-aos-delay="100"
@@ -87,7 +87,7 @@ export const FourthSection = () => {
           data-aos-duration="1000"
           className="w-full md:w-1/2"
         >
-          <h1 className="text-black text-center md:text-right text-[24px] md:text-[28px] leading-2 leading-2 font-bold mb-10">
+          <h1 className="text-black text-center md:text-right text-lg md:text-[28px] leading-2 leading-2 font-bold mb-10">
             AI-Powered Service Advisor
             <br className="block " /> Support
           </h1>
@@ -117,8 +117,8 @@ export const FifthSection = () => {
           data-aos-duration="1000"
           className="w-full md:w-1/2 md:pr-14"
         >
-          <h1 className="text-black text-center md:text-left text-[24px] md:text-[28px] leading-2 font-bold mb-10">
-            Listing for Visibility on AutoHyve <br /> Platform
+          <h1 className="text-black text-center md:text-left text-lg md:text-[28px] leading-2 font-bold mb-10">
+            Listing for Visibility on AutoHyve <br className="md:block hidden" /> Platform
           </h1>
           <p className="text-sm md:text-base md:text-left text-center leading-7 pb-5 md:pr-10">
             Become visible to AutoHyve users. Our Software uses contextual targeting to directly
@@ -149,7 +149,7 @@ export const FifthSection = () => {
 
 export const SixtSection = () => {
   return (
-    <div className="font-monts mt-16 mb-32 min-h-[70vh]  ">
+    <div className="font-monts mt-16 mb-16 min-h-[70vh]  ">
       <div className="mx-auto flex-col md:flex-row relative md:w-11/12 px-5 md:px-0 flex items-center justify-between">
         <div className="w-full justify-center flex md:w-1/2 md:pl-14 mb-10 md:mb-0 relative">
           <img
@@ -171,9 +171,9 @@ export const SixtSection = () => {
           data-aos-delay="100"
           data-aos-duration="1000"
         >
-          <h1 className="text-black text-center md:text-right text-[24px] md:text-[28px] leading-2 leading-2 font-bold mb-5">
+          <h1 className="text-black text-center md:text-right text-lg md:text-[28px] leading-2 leading-2 font-bold mb-5">
             Automatic Customer Payment
-            <br className="block " /> Reminders
+            <br className="md:block hidden" /> Reminders
           </h1>
           <p className="text-sm md:text-base text-center md:text-right leading-7 pb-10 md:pl-12">
             AutoHyve’s algorithm is programmed to keep all incompletely paid invoices in the face of
