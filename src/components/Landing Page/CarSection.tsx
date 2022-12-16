@@ -19,7 +19,7 @@ const CarSection = () => {
     AOS.init();
   }, []);
   return (
-    <section className="w-full flex items-center justify-center bg-black ">
+    <section className="w-full flex items-center justify-center bg-black  mt-10 md:m-0">
       <div className="w-11/12 flex items-center flex-col justify-between">
         <div className="flex items-center flex-col gap-6 mb-10">
           <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] mt-20"></div>

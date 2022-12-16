@@ -14,7 +14,7 @@ const CorouselSection = () => {
     AOS.init();
   }, []);
   return (
-    <div className="w-full overflow-x-hidden ">
+    <div className="w-full flex overflow-x-hidden ">
       <div className="hidden  md:block">
         <Carousel showStatus={false} showArrows={false} interval={100}>
           <section className="w-full flex gap-10 items-center justify-center ">
@@ -32,7 +32,7 @@ const CorouselSection = () => {
           </section>
         </Carousel>
       </div>
-      <div className="  md:hidden flex flex-col gap-10 ">
+      <div className="  md:hidden flex flex-col gap-16  mb-10">
         <section className="w-full flex gap-10 items-center justify-center ">
           <FirstCarousel />
         </section>
@@ -149,7 +149,7 @@ const ThirdCarousel = () => {
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500"
-      className="w-11/12 flex items-center flex-col mx-auto justify-center   bg-lightGray rounded-3xl md:h-[690px]  p-8 md:p-0 "
+      className="w-11/12 flex items-center flex-col mx-auto justify-center   bg-lightGray rounded-3xl md:h-[690px]  p-8 md:p-0  "
     >
       <div className="flex items-center justify-betweenm gap-6 md:gap-20 flex-col md:flex-row">
         <div className="flex items-center md:items-start flex-col justify-center md:w-[618px]  ">
