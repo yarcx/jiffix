@@ -15,7 +15,7 @@ export function BusIcon({
       viewBox="0 0 56 66"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute right-[3px] top-[12px] md:right-[-11px] md:top-[94px] h-[19px] md:h-[58px] "
+      className=" absolute right-[3px] top-[12px] md:right-[-14px] md:top-[64px] h-[19px] md:h-[58px] "
       
     >
       <path

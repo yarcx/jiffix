@@ -35,7 +35,7 @@ const CarSection = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="w-full flex items-center justify-center bg-black  mt-10 md:mt-0">
+    <section className="w-full flex items-center justify-center bg-black  mt-10 md:mt-0 pb-20">
       <div className="w-11/12 flex items-center flex-col justify-between">
         <div className="flex items-center flex-col gap-6 mb-10">
           <div className="border-b-4 border-primary w-[80px]  md:w-[300px] mt-24"></div>
@@ -71,8 +71,8 @@ const CarSection = () => {
           data-aos="zoom-out-down"
           className="relative md:my-8 md:w-[1000px] h-[400px] md:h-[864px]  flex items-center justify-center"
         >
-          <div className="bg-jeffix-logo bg-center absolute z-3 bg-no-repeat bg-contain text-white  flex items-center justify-center w-[290px] h-[243px] md:w-[900px] md:h-[547px] ">
-            <div className="rounded-full w-[240px] h-[250px] md:w-[550px] md:h-[600px] absolute border-4 border-yellow-500 z-2">
+          <div className="bg-jeffix-logo bg-center absolute z-3 bg-no-repeat bg-contain text-white  flex items-center justify-center w-[290px] h-[243px] md:w-[800px] md:h-[470px] ">
+            <div className="rounded-full w-[240px] h-[250px] md:w-[450px] md:h-[500px] absolute border-4 border-yellow-500 z-2">
             <CarIcon active={active == 0} />
               <BusIcon active={active == 1} />
               <BicycleIcon active={active == 5} />
@@ -82,7 +82,7 @@ const CarSection = () => {
             <img
               src={Car}
               alt=""
-              className="w-[300px] h-[180px] md:w-[700px] md:h-[350px] absolute z-1"
+              className="w-[300px] h-[180px] md:w-[600px] md:h-[350px] absolute z-1"
             />
           </div>
         </div>
