@@ -7,7 +7,7 @@ import Workshop from "./components/Workshop/Workshop";
 function App() {
   return (
     <div className="App font-monts">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <DemoNavigator /> */}
       <Home/>
        {/* <Booking/>  */}
