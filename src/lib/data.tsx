@@ -47,6 +47,23 @@ export const checkListItems: Array<checkList> = [
   { text: "<b>AI-powered</b> support " },
 ];
 
+export type bookingType = {
+  text: string;
+};
+
+export const BookingItems: Array<checkList> = [
+  { text: "<b>Maximize revenue</b>and increase operational efficiency " },
+  { text: "<b>Reduce</b> Vehicle downtimes " },
+  {
+    text: "Get complete visibility on vehicle <b>lifecycle costs and expenses</b>",
+  },
+  { text: "<b></b>Automate manual time-consuming processes" },
+  { text: "Empower your decisions with <b>Artificial Intelligence</b>" },
+  {
+    text: "<b>Reduce maintenance cost</b> by up to 48% with the AutoHyve’s Intelligence Capabilities",
+  },
+];
+
 export type tableDataType = {
   text: string;
   icon: JSX.Element;
@@ -86,4 +103,3 @@ export const WorkShopItems: Array<tableDataType> = [
     colTwoicon: Declinemark({}),
   },
 ];
-
