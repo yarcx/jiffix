@@ -16,9 +16,9 @@ const BrandSection = () => {
   }, []);
   return (
     <section className="w-full flex items-center justify-center p-10">
-      <div className="w-11/12 flex items-center flex-col justify-between ">
+      <div className="w-11/12 flex items-center flex-col justify-between  ">
         <div data-aos="zoom-in-right" className=" flex items-center flex-col md:gap-12 mb-10">
-          <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] md:mt-10"></div>
+          <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] md:my-10"></div>
           <h1 className="text-3xl font-bold w-[300px] md:w-full text-center">
             Working together to Build the Future
           </h1>
@@ -28,7 +28,7 @@ const BrandSection = () => {
         </p>
         <div
           data-aos="zoom-in-left"
-          className="flex justify-between items-center w-full md:w-3/5 md:mb-[134px] my-20 "
+          className="flex justify-between items-center w-full md:w-3/5 md:mb-[100px] my-20 "
         >
           <img
             src={Total}
@@ -44,7 +44,7 @@ const BrandSection = () => {
         </div>
         <div
           data-aos="zoom-in-right"
-          className="w-full border md:h-[290px] flex flex-col items-center md:flex-row justify-center md:justify-around bg-secondary rounded-xl  p-6"
+          className=" w-full md:h-[299px] flex flex-col items-center md:flex-row justify-center md:justify-around bg-secondary rounded-xl  p-6"
         >
           <div className=" md:w-[600px] pb-10  ">
             <h1 className="md:text-2xl text-sm py-4 w-[200px] md:w-full">

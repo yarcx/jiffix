@@ -32,7 +32,7 @@ const CarSection = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="w-full flex items-center justify-center bg-black ">
+    <section className="w-full flex items-center justify-center bg-black  mt-10 md:m-0">
       <div className="w-11/12 flex items-center flex-col justify-between">
         <div className="flex items-center flex-col gap-6 mb-10">
           <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] mt-20"></div>
@@ -83,7 +83,7 @@ const CarSection = () => {
             />
           </div>
         </div>
-        <p className="text-white md:w-[670px] md:h-[280px] text-center pb-12 text-lg">
+        <p className="text-white md:w-[670px] md:h-[280px] text-center pb-12 text-lg md:my-10">
           AutoHyve as a Software-as-a-Service platform standardizes and analyzes vehicle repair and
           health data to generate real-time insights in their millions.
           <br />

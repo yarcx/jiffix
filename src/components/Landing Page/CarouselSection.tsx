@@ -14,7 +14,7 @@ const CorouselSection = () => {
     AOS.init();
   }, []);
   return (
-    <div className="w-full overflow-x-hidden ">
+    <div className="w-full flex overflow-x-hidden ">
       <div className="hidden  md:block">
         <Carousel showStatus={false} showArrows={false} interval={100}>
           <section className="w-full flex gap-10 items-center justify-center ">
@@ -32,7 +32,7 @@ const CorouselSection = () => {
           </section>
         </Carousel>
       </div>
-      <div className="  md:hidden flex flex-col gap-10 ">
+      <div className="  md:hidden flex flex-col gap-16  mb-10">
         <section className="w-full flex gap-10 items-center justify-center ">
           <FirstCarousel />
         </section>
@@ -79,7 +79,7 @@ const FirstCarousel = () => {
           </div>
         </div>
         <div className="flex items-center justify-center  mb-[-50px]">
-          <img src={Safari} alt="" />
+          <img src={Safari} alt="safari logo" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
@@ -123,7 +123,7 @@ const SecondCarousel = () => {
           </div>
         </div>
         <div className="flex items-center justify-center  mb-[-50px]">
-          <img src={Dashboard} alt="" />
+          <img src={Dashboard} alt="dashboard logo" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
@@ -149,7 +149,7 @@ const ThirdCarousel = () => {
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500"
-      className="w-11/12 flex items-center flex-col mx-auto justify-center   bg-lightGray rounded-3xl md:h-[690px]  p-8 md:p-0 "
+      className="w-11/12 flex items-center flex-col mx-auto justify-center   bg-lightGray rounded-3xl md:h-[690px]  p-8 md:p-0  "
     >
       <div className="flex items-center justify-betweenm gap-6 md:gap-20 flex-col md:flex-row">
         <div className="flex items-center md:items-start flex-col justify-center md:w-[618px]  ">
@@ -167,7 +167,7 @@ const ThirdCarousel = () => {
       
         </div>
         <div className="md:w-[500px]">
-          <img src={SafariBrowser} alt="" className="md:w-full"/>
+          <img src={SafariBrowser} alt="safari browser logo" className="md:w-full"/>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-10   md:ml-36 md:items-center items-center w-11/12 my-6 md:m-0">
