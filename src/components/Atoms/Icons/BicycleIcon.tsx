@@ -9,7 +9,7 @@ export function BicycleIcon({ color }: { size?: number; color?: string }): JSX.E
       viewBox="0 0 58 58"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute left-[0px] top-[14px] md:left-[10px] md:top-[94px] h-[18px] md:h-[58px]"
+      className=" absolute left-[0px] top-[14px] md:left-[15px] md:top-[54px] h-[18px] md:h-[58px]"
     >
 
       <path

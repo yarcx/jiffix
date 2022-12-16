@@ -9,7 +9,7 @@ export function VanIcon({ size, color }: { size?: number; color?: string }): JSX
       viewBox="0 0 61 47"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute md:right-[290px] right-[100px] md:bottom-[-51px] bottom-[-35px] w-[18px] md:w-[61px]"
+      className=" absolute md:right-[247px] right-[100px] md:bottom-[-51px] bottom-[-35px] w-[18px] md:w-[61px]"
       
     >
 

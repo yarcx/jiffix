@@ -8,7 +8,7 @@ export function CarIcon({ size, color }: { size?: number; color?: string }): JSX
       viewBox="0 0 60 46"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute left-[110px] top-[-33px] md:top-[-49px] md:left-[290px] w-[18px] md:w-[60px]"
+      className=" absolute left-[110px] top-[-33px] md:top-[-50px] md:left-[247px] w-[18px] md:w-[60px]"
     >
 
       <path

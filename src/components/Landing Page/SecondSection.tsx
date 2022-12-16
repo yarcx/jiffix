@@ -13,7 +13,7 @@ const SecondSection = () => {
         data-aos="zoom-in"
         className="flex items-center flex-col justify-center w-3/5  gap-10 p-10  md:mb-4"
       >
-        <div className="border-3 md:border-b-4  border-primary w-[80px] md:my-8 md:w-[300px]" />
+       <div className="border-b-4 border-primary w-[80px]  md:w-[300px] my-4"></div>
         <h1 className="font-bold md:text-3xl text-2xl text-center md:w-full w-[300px] ">
           AI-Powered Software and Analytics Platform for the Automotive
           Aftersales sector

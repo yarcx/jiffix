@@ -9,8 +9,8 @@ function App() {
     <div className="App font-monts">
       {/* <Navbar /> */}
       {/* <DemoNavigator /> */}
-      <Home/>
-       {/* <Booking/>  */}
+      {/* <Home/> */}
+       <Booking/> 
       {/* <Workshop/> */}
     </div>
   );

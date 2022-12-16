@@ -21,7 +21,7 @@ const BrandSection = () => {
           data-aos="zoom-in-right"
           className=" flex items-center flex-col md:gap-12 mb-10"
         >
-          <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] md:my-10"></div>
+         <div className="border-b-4 border-primary w-[80px]  md:w-[300px]  mb-12 md:my-10"></div>
           <h1 className="text-3xl font-bold w-[300px] md:w-full text-center">
             Working together to Build the Future
           </h1>

@@ -9,7 +9,7 @@ export function BusIcon({ size, color }: { size?: number; color?: string }): JSX
       viewBox="0 0 56 66"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute right-[3px] top-[12px] md:right-[9px] md:top-[94px] h-[19px] md:h-[58px] "
+      className=" absolute right-[3px] top-[12px] md:right-[-11px] md:top-[94px] h-[19px] md:h-[58px] "
       
     >
 

@@ -7,7 +7,7 @@ export function TractorIcon({ size, color }: { size?: number; color?: string }):
       viewBox="0 0 61 61"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute right-[12px] bottom-[0px] md:right-[-3px] md:bottom-[112px] md:w-[61px] w-[19px]"
+      className=" absolute right-[12px] bottom-[0px] md:right-[-26px] md:bottom-[112px] md:w-[61px] w-[19px]"
     >
 
       <path

@@ -61,7 +61,7 @@ const FirstCarousel = () => {
     >
       <div className="flex items-center justify-around flex-col md:flex-row">
         <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-10 md:p-10">
-          <h1 className=" text-lg md:text-3xl font-semibold text-center md:text-center   md:w-[619px]">
+          <h1 className=" text-lg md:text-3xl text-left font-semibold md:text-center   md:w-[619px]">
             Save up to 25% on your annual maintenance cost
           </h1>
           <div>
@@ -104,11 +104,11 @@ const SecondCarousel = () => {
     <div className="w-11/12 flex items-center flex-col mx-auto md:h-[690px] justify-center bg-lightGray rounded-3xl  p-8 pr-10">
       <div className="flex items-center justify-around flex-col md:flex-row">
         <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
-          <h1 className=" text-lg md:text-3xl font-semibold text-center md:text-center   md:w-[478px]">
+          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
             Make Decisions Easier and Faster
           </h1>
           <div className="">
-            <p className="text-left md:text-center text-lg md:w-[670px] ">
+            <p className="text-left md:text-center text-lg md:w-[670px]  ">
               AutoHyve saves you time on reporting by making data easily
               accessible for self-service analytics, with built-in business
               intelligence

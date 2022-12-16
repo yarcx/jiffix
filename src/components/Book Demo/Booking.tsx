@@ -66,7 +66,7 @@ const Booking = () => {
   return (
     <section className="w-full h-full flex items-center justify-center">
       <div className="flex w-full h-full items-center justify-center relative">
-        <div className="flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative">
+        <div className="md:flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative hidden">
           <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full absolute top-[-80px]"></div>
           <div className="h-full flex  flex-col justify-center w-[592px]">
             {BookingItems.map(({ text }) => (
@@ -80,15 +80,15 @@ const Booking = () => {
           <div className="border-2 border-lightPink w-[580px] h-[530px] border-dashed rounded-full absolute  top-[200px] right-[-500px] z-[100]"></div>
         </div>
 
-        <div className=" flex flex-col items-center bg-white w-full pt-8 z-[100]">
+        <div className=" flex flex-col items-center bg-white w-full pt-8 z-[100] ">
           <div>
             <img src={Logo} alt="" />
           </div>
-          <div>
-            <h1 className="text-4xl font-bold text-center pt-[35px]">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="md:text-4xl text-2xl font-bold text-center pt-[35px]">
               Book your personalized demo
             </h1>
-            <p className="text-lg w-[609px] text-center pt-[25px]">
+            <p className="text-lg flex w-[300px] md:w-[609px] text-center pt-[25px]">
               We'd love to hear your specific needs and show you everything your
               team can do with AutoHyve. Let's find 15 minutes that work for you
             </p>
@@ -108,10 +108,10 @@ const Booking = () => {
               Submit
             </button>
           </form>
-          <p className="text-sm w-[609px] text-center pt-[25px]">
+          <p className="text-sm w-[300px] md:w-[609px] text-center pt-[25px] flex flex-col md:block">
             By submitting this form, you agree to receive emails from Jiffix.
             You can unsubscribe at any time. View our{" "}
-            <span className="underline">Privacy Policy.</span>
+            <span className="underline my-2 md:my-0">Privacy Policy.</span>
           </p>
         </div>
       </div>

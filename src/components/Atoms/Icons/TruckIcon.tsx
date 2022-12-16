@@ -7,7 +7,7 @@ export function TruckIcon({ size, color }: { size?: number; color?: string }): J
       viewBox="0 0 48 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className=" absolute left-[-5px] bottom-[23px] md:left-[10px] md:bottom-[112px] h-[19px] md:h-[50px]"
+      className=" absolute left-[-15px] bottom-[23px] md:left-[-10px] md:bottom-[112px] h-[19px] md:h-[50px]"
     >
 
       <path
