@@ -3,6 +3,9 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Gateway from "./pages/Gateway";
 import Pricing from "./pages/Pricing";
+import Booking from "./components/Book Demo/Booking";
+import MainWorkshop from "./components/Book Demo/MainWorkshop";
+import Workshop from "./pages/Workshop";
 
 const router = createBrowserRouter([
   {
@@ -10,13 +13,12 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/login",
-    element: (
-      <div>
-        <h1 className="text-5xl text-center font-bold underline">Jiffix Login Page</h1>
-        <DemoNavigator />
-      </div>
-    ),
+    path: "/business",
+    element: <Booking />,
+  },
+  {
+    path: "/workshop",
+    element: <Workshop />,
   },
   {
     path: "/signup",

@@ -49,14 +49,18 @@ const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
 
             {
               <div className="hidden md:flex items-center gap-x-6 justify-between">
-                <GatewayButton
-                  text="Businesses"
-                  btnClass="bg-silver flex items-center text-center justify-center text-sm rounded-[34px] min-w-[180px] px-6 h-[43px]"
-                />
-                <GatewayButton
-                  text="Workshops"
-                  btnClass="lightOrangeBg text-sm flex items-center text-center justify-center rounded-[34px] min-w-[180px] px-6 h-[43px]"
-                />
+                <Link to="/business">
+                  <GatewayButton
+                    text="Businesses"
+                    btnClass="bg-silver flex items-center text-center justify-center text-sm rounded-[34px] min-w-[180px] px-6 h-[43px]"
+                  />
+                </Link>
+                <Link to="/workshop">
+                  <GatewayButton
+                    text="Workshops"
+                    btnClass="lightOrangeBg text-sm flex items-center text-center justify-center rounded-[34px] min-w-[180px] px-6 h-[43px]"
+                  />
+                </Link>
               </div>
             }
           </div>

@@ -9,11 +9,13 @@ import BusinessSection from "../components/Landing Page/BusinessSection";
 import CarSection from "../components/Landing Page/CarSection";
 import BrandSection from "../components/Landing Page/BrandSection";
 import Footer from "../components/Organisms/Gateway/Footer";
+import Navbar from "../components/Molecules/Navbar";
 
 const Home = () => {
   return (
     <div>
-      <div className="w-full flex flex-col justify-center items-center gap-10">
+      <div className="w-full flex flex-col justify-center items-center ">
+        <Navbar />
         <Hero />
         <SecondSection />
         <CorouselSection />

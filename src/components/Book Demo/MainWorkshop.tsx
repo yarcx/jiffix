@@ -1,19 +1,17 @@
 import Input from "../../components/Atoms/Inputs/Input";
-import React from "react";
-import Logo from "../../assets/logo.png";
-import Check from "../../assets/check.png";
-import { checkListItems, BookingItems } from "../../lib/data";
 import { Link } from "react-router-dom";
 import blackLogo1 from "../../assets/blackLogo1.png";
+import Check from "../../assets/check.png";
+import { checkListItems, BookingItems } from "../../lib/data";
 
-const Booking = () => {
+const MainWorkshop = () => {
   return (
     <section className="w-full h-full flex items-center justify-center">
       <div className="flex w-full h-full items-center justify-center relative">
         <div className="flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative">
-          <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full absolute top-[-80px]"></div>
-          <div className="h-full flex  flex-col justify-center w-[592px]">
-            {BookingItems.map(({ text }) => (
+          <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full  absolute top-[-80px] z-[1]"></div>
+          <div className="h-full flex  flex-col justify-center">
+            {checkListItems.map(({ text }) => (
               <div className="flex items-center gap-10 mb-[35px]">
                 <img src={Check} alt="check" className="" />
                 <p dangerouslySetInnerHTML={{ __html: text }} />
@@ -21,7 +19,7 @@ const Booking = () => {
             ))}
           </div>
           <div className="border-2 border-lightPink w-[176px] h-[180px] border-dashed rounded-full absolute left-[100px] bottom-[0px]"></div>
-          <div className="border-2 border-lightPink w-[580px] h-[530px] border-dashed rounded-full absolute  top-[200px] right-[-500px] z-[100]"></div>
+          <div className="border-2 border-lightPink w-[580px] h-[530px] border-dashed rounded-full absolute  top-[200px] right-[-500px] z-[10]"></div>
         </div>
 
         <div className=" flex flex-col items-center bg-white w-full pt-8 z-[100]">
@@ -64,4 +62,4 @@ const Booking = () => {
   );
 };
 
-export default Booking;
+export default MainWorkshop;
