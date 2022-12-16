@@ -37,6 +37,7 @@ module.exports = {
         priOrange: "#EA4E1A",
         secOrange: "#FEEED1 ",
         gray: "#9D9E9F",
+        secondGray: "#3D3D3D",
       },
       backgroundImage: {
         iphoneBanner: "url('/src/assets/gateway/iphoneBanner.png')",

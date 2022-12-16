@@ -12,20 +12,22 @@ const SecondSection = () => {
           className="mx-auto relative md:w-11/12 px-5 md:px-0"
         >
           <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
+
           <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-3xl">
-            AI-Powered Software and Analytics Platform for the <br />
-            Automotive Aftersales sector
+            AI-Powered Software and Invoicing Platform for
+            <br /> Automotive Workshops
           </h1>
 
-          <div className="text-center font-normal text-lg mt-20">
+          <div className="text-center font-normal md:mx-auto  text-lg mt-10 md:w-10/12 md:px-6">
             <p>
-              AutoHyve is the simple alternative to Email threads, Whatsapp pdf, spreadsheets or
-              outdated fleet <br /> software –
+              AutoHyve Gateway is the automotive workshop alternative to Whatsapp, paper prints, or
+              complex softwares for sending estimates/invoices to customers seamlessly and
+              collecting payments 3X <br className="md:block hidden" /> faster.
             </p>
-            <p className="mt-20">
-              It brings all vehicles’ repair and maintenance data into one place, for real-time
-              insights and access <br /> to vehicle data that help service providers improve
-              diagnostics, and drive customer satisfaction
+            <p className="mt-10">
+              It brings all vehicle's repair and maintenance data into the cloud, for real time
+              insights and access to vehicle history to help service providers improve on Vehicle
+              diagnosis and drive customer <br className="md:block hidden" /> satisfaction.
             </p>
           </div>
         </div>
@@ -35,11 +37,11 @@ const SecondSection = () => {
           data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="pt-20 mt-20 "
+          className="pt-20 mt-10 "
         >
           <div className="mx-auto relative md:w-11/12 px-5 md:px-0">
             <div className="w-[250px] mb-20 border-2 rounded-sm border-orange mx-auto"></div>
-            <h1 className="mb-10 mt-20 text-center leading-normal font-bold text-black text-3xl">
+            <h1 className="mb-10 text-center leading-normal font-bold text-black text-3xl">
               AutoHyve is Opening a New World of Opportunity for Automotive <br /> Service Providers
               in Africa
             </h1>

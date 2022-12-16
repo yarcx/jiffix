@@ -1,10 +1,4 @@
-import {
-  BicycleIcon,
-  BusIcon,
-  CarIcon,
-  Declinemark,
-  Checkmark,
-} from "../components/Atoms/Icons";
+import { BicycleIcon, BusIcon, CarIcon, Declinemark, Checkmark } from "../components/Atoms/Icons";
 
 export type autoTypes = {
   title: string;
@@ -87,3 +81,11 @@ export const WorkShopItems: Array<tableDataType> = [
   },
 ];
 
+export const formatAmount = (number: number) => {
+  return Number(
+    new Intl.NumberFormat("en-US", {
+      maximumFractionDigits: 2,
+      style: "decimal",
+    }).format(number)
+  ).toFixed();
+};

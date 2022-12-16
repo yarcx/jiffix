@@ -27,13 +27,12 @@ border-radius: 50px;
   color: #888;
 } */
 
-  
 /* background: linear-gradient(89.85deg, #FBA91A 31.31%, rgba(251, 169, 26, 0) 99.88%) */
 
 .back-img {
   background: url(./assets/car_background.png);
 }
-.linear_back{
+.linear_back {
   height: 500px;
   background: linear-gradient(89.85deg, #fba91a 31.31%, rgba(251, 169, 26, 0) 99.88%);
 }
@@ -50,4 +49,8 @@ hr {
     rgba(217, 217, 217, 0.27) 92.62%
   );
   border-radius: 50px;
+}
+
+.lightOrangeBg {
+  background: rgba(251, 169, 26, 0.4);
 }

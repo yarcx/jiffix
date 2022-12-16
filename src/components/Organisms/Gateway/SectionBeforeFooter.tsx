@@ -7,7 +7,6 @@ const SectionBeforeFooter = () => {
     <div
       style={{
         backgroundImage: "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)",
-        // backgroundImage: `linear-gradient(to right, red , yellow)`,
       }}
       className="h-[142px]"
     >

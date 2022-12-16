@@ -33,27 +33,26 @@ const HeroSection = () => {
           <div>
             <h1
               //   style={{ lineHeight: "60px" }}
-              className="font-bold text-[35px] md:text-[44px] text-black  pb-8 leading-tight"
+              className="font-bold text-[35px] md:text-[44px] text-black leading-tight"
             >
               The Operating System for <br /> Automotive <br className="md:hidden block" /> Service{" "}
               <br className="md:block hidden" />
               Providers
             </h1>
-            <p className="font-normal text-lg leading-8">
-              Create & Send Estimates/Invoices seamlessly, and access{" "}
-              <br className="md:block hidden" />
-              vehicle data for improved diagnostics and job quality
+            <p className="font-normal text-lg my-8 leading-8">
+              Send Estimates/Invoices seamlessly, access vehicle data for{" "}
+              <br className="md:block hidden" /> improved diagnostics and collect payments 3X faster
             </p>
           </div>
           {/* Button sections */}
-          <div className="my-8 flex items-cneter md:justify-start justify-between md:gap-x-7">
+          <div className="mb-8 flex items-cneter md:justify-start justify-between md:gap-x-7">
             <GatewayButton
               text="Create a free account"
-              btnClass="bg-orange h-[60px] md:h-[70px] text-sm px-4 md:px-6 text-center flex items-center justify-center md:text-md  md:w-[240px]"
+              btnClass="bg-orange h-[60px] md:h-[70px] text-sm px-4 md:px-6 text-center flex items-center justify-center md:text-base  md:w-[240px]"
             />
             <GatewayButton
               text="Request Demo"
-              btnClass="bg-silver md:text-md h-[60px] md:h-[70px] text-sm px-6 md:px-6 text-center flex items-center justify-center md:w-[240px]"
+              btnClass="bg-silver md:text-base h-[60px] md:h-[70px] text-sm px-6 md:px-6 text-center flex items-center justify-center md:w-[240px]"
             />
           </div>
 
@@ -72,8 +71,8 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        {/* left side */}
-        <div className="w-full hidden md:w-6/12 h-full md:flex items-stretch   pr-10 pt-10">
+        {/* right side */}
+        <div className="w-full hidden md:w-6/12 h-full md:flex items-stretch pt-10">
           <img src={heroBanner} alt="hero Banner" className="aspect-auto" />
         </div>
       </div>
