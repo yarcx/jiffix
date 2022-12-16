@@ -51,7 +51,7 @@ const Navbar = () => {
           <li>
             <Link to="/gateway" className="relative">
               <button className=" bg-primary  w-44 h-14 rounded">Start FREE Trial </button>
-              <span className="absolute top right-5 text-[#F80000] font-light text-xs">Beta</span>
+              <span className="absolute top right-1 text-[#F80000] font-light text-xs">Beta</span>
             </Link>
           </li>
         </ul>
