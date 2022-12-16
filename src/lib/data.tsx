@@ -101,7 +101,8 @@ export const WorkShopItems: Array<tableDataType> = [
 export const formatAmount = (number: number) => {
   return Number(
     new Intl.NumberFormat("en-US", {
-      maximumFractionDigits: 2,
+      maximumFractionDigits: 0,
+      maximumSignificantDigits: 2,
       style: "decimal",
     }).format(number)
   ).toFixed();
