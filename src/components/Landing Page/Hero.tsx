@@ -8,7 +8,7 @@ const Hero = () => {
     AOS.init();
   }, []);
   return (
-    <section className="w-full bg-hero h-[86vh]">
+    <section className="w-full bg-hero h-[86vh] bg-no-repeat bg-cover">
       <div className="linear_back  md:md_back h-full items-center flex flex-col justify-center w-full">
         <div
           data-aos="fade-right"
@@ -23,9 +23,12 @@ const Hero = () => {
             The most powerful and simplest way for Businesses to centralize all vehicle repair data
             in one place and uncover cost-saving insights
           </p>
-          <Link to="singin">
+          <Link to="/gateway" className="relative">
             <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
+            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
+     
+              
         </div>
       </div>
     </section>

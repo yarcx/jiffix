@@ -29,13 +29,13 @@ const Navbar = () => {
               <Link to="/business">
                 <GatewayButton
                   text="Businesses"
-                  btnClass="bg-silver flex items-center text-center justify-center text-sm rounded-[34px] min-w-[180px] px-6 h-[43px]"
+                  btnClass="lightOrangeBg flex items-center text-center justify-center text-sm rounded-[34px] min-w-[190px] px-6 h-[43px]"
                 />
               </Link>
               <Link to="/workshop">
                 <GatewayButton
                   text="Workshops"
-                  btnClass="lightOrangeBg text-sm flex items-center text-center justify-center rounded-[34px] min-w-[180px] px-6 h-[43px]"
+                  btnClass=" bg-silver  text-sm flex items-center text-center justify-center rounded-[34px] min-w-[190px] px-6 h-[43px]"
                 />
               </Link>
             </div>

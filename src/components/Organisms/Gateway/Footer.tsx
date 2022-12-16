@@ -3,6 +3,7 @@ import blackLogo from "../../../assets/blackLogo.png";
 import Facebook from "../../../assets/svgs/Facebook";
 import InstagramIcon from "../../../assets/svgs/InstagramIcon";
 import LinkedInIcon from "../../../assets/svgs/LinkedInIcon";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const date = new Date();
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             alt="logo alt"
             className="mb-8 md:mb-0 object-cover md:w-[130px] md:h-[83px] w-[85px] h-[50px]"
           />
-          <ul className="flex items-center gap-x-8">
+          <ul className="hidden md:flex items-center gap-x-8">
             <li className="font-bold text-xl text-black mr-5 hidden md:block">#MyAutoHyve</li>
             <li>
               <InstagramIcon />
@@ -23,7 +24,9 @@ const Footer = () => {
               <Facebook />
             </li>
             <li>
-              <LinkedInIcon />
+              <a rel="nofollow" href="https://www.linkedin.com/company/myautohyve/">
+                <LinkedInIcon />
+              </a>
             </li>
           </ul>
         </div>

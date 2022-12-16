@@ -30,7 +30,7 @@ const Gateway: FC = () => {
       <FourthSection />
       <FifthSection />
       <GetStartedSection />
-      <SectionBeforeFooter />
+      {/* <SectionBeforeFooter /> */}
       <Footer />
     </div>
   );

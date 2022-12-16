@@ -15,15 +15,18 @@ const BrandSection = () => {
     AOS.init();
   }, []);
   return (
-    <section className="w-full flex items-center justify-center p-10">
-      <div className="w-11/12 flex items-center flex-col justify-between  ">
-        <div data-aos="zoom-in-right" className=" flex items-center flex-col md:gap-12 mb-10">
-          <div className="border-3 md:border-b-4 border-primary w-[80px]  md:w-[300px] md:my-10"></div>
-          <h1 className="text-3xl font-bold w-[300px] md:w-full text-center">
+    <section className="w-full flex items-center justify-center p-10 pt-20">
+      <div className="md:w-11/12 flex items-center flex-col justify-between   ">
+        <div
+          data-aos="zoom-in-right"
+          className=" flex items-center flex-col md:gap-12 mb-10"
+        >
+         <div className="border-b-4 border-primary w-[80px]  md:w-[300px]  mb-12 md:my-10"></div>
+          <h1 className=" text-xl md:text-3xl font-bold w-[300px] md:w-full text-center">
             Working together to Build the Future
           </h1>
         </div>
-        <p data-aos="zoom-in-left" className="text-center text-lg md:w-[550px]">
+        <p data-aos="zoom-in-left" className="text-center text-base md:text-lg md:w-[550px] w-full">
           Just some of the ground breaking businesses and organizations we work in partnership with.
         </p>
         <div
@@ -33,14 +36,14 @@ const BrandSection = () => {
           <img
             src={Total}
             alt="total logo"
-            className="w-[45px] h-[14px] md:w-[200px] md:h-[62.5px]"
+            className="w-[60px] h-[20px] md:w-[200px] md:h-[62.5px]"
           />
           <img
             src={Ngk}
             alt="ngk logo"
-            className="w-[45px] h-[14px] md:w-[145.88px] md:h-[48.03px]"
+            className="w-[60px] h-[20px] md:w-[145.88px] md:h-[48.03px]"
           />
-          <img src={Aws} alt="Aws logo" className="w-[45px] h-[14px] md:w-[106.65px] md:h-[65px]" />
+          <img src={Aws} alt="Aws logo" className="w-[60px] h-[20px] md:w-[106.65px] md:h-[65px]" />
         </div>
         <div
           data-aos="zoom-in-right"

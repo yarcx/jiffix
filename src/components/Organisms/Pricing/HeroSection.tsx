@@ -10,7 +10,7 @@ const HeroSection = () => {
         data-aos-delay="200"
         data-aos-duration="1000"
         data-aos-easing="linear"
-        className="mx-auto relative min-h-[90vh] md:min-h-screen items-center pt-10 md:pb-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts"
+        className="mx-auto relative min-h-screen md:min-h-screen items-center pt-10 md:pb-10 md:w-11/12 px-5 md:px-0 place-items-center grid font-monts"
       >
         <div className="md:w-[51%] -mt-10 md:mt-20 h-[70%] relative">
           {/* Small Ellipse */}
