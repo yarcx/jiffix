@@ -88,7 +88,7 @@ const FifthSection = () => {
           <h1 className="text-black text-center md:text-left text-[24px] md:text-[28px] leading-2 font-bold mb-10">
             Increased Workshop <span className="text-primary"> Visibility </span>
           </h1>
-          <p className="text-sm md:text-base md:text-left text-center leading-5 pb-5 pr-5">
+          <p className="text-sm md:text-base md:text-left text-center leading-7 pb-5 pr-5">
             Through contextualized targeting – we put your workshop in front of customers who are
             most likely to visit and pay for your services. This makes AutoHyve your preferred
             platform for workshops to reach more customers easily and directly.

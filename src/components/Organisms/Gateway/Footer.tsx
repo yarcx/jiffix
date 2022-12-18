@@ -24,7 +24,7 @@ const Footer = () => {
               <Facebook />
             </li>
             <li>
-              <a rel="nofollow" href="https://www.linkedin.com/company/myautohyve/">
+              <a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/myautohyve/">
                 <LinkedInIcon />
               </a>
             </li>

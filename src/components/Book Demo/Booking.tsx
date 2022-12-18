@@ -8,7 +8,7 @@ import blackLogo1 from "../../assets/blackLogo1.png";
 
 const Booking = () => {
   return (
-    <section className="w-full h-full flex items-center justify-center">
+    <section className="w-full h-full font-monts flex items-center justify-center">
       <div className="flex w-full h-full items-center justify-center relative">
         <div className="md:flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative hidden">
           <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full absolute top-[-80px]"></div>
@@ -16,7 +16,7 @@ const Booking = () => {
             {BookingItems.map(({ text }) => (
               <div className="flex items-center gap-10 mb-[35px]">
                 <img src={Check} alt="check" className="" />
-                <p dangerouslySetInnerHTML={{ __html: text }} />
+                <p dangerouslySetInnerHTML={{ __html: text }} className="text-sm md:text-base" />
               </div>
             ))}
           </div>
@@ -35,12 +35,12 @@ const Booking = () => {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="md:text-4xl text-2xl font-bold text-center pt-[35px]">
+            <h1 className="md:text-3xl text-xl font-bold text-center pt-[35px]">
               Book your personalized demo
             </h1>
-            <p className="text-lg flex w-[300px] md:w-[609px] text-center pt-[25px]">
-              We'd love to hear your specific needs and show you everything your
-              team can do with AutoHyve. Let's find 15 minutes that work for you
+            <p className="text-sm md:text-base  flex w-[300px] md:w-[609px] text-center pt-[25px]">
+              We'd love to hear your specific needs and show you everything your team can do with
+              AutoHyve. Let's find 15 minutes that work for you
             </p>
           </div>
 
@@ -50,14 +50,16 @@ const Booking = () => {
             <Input type="text" placeholder="Workshop Name" />
             <Input type="number" placeholder="Phone Number" />
             <Input type="email" placeholder="Work Email" />
-            <button className="bg-primary w-[246px] h-[60px] rounded-lg mb-6 md:mb-24 mt-6" type="submit">
+            <button
+              className="bg-primary w-[246px] h-[60px] rounded-lg mb-6 md:mb-24 mt-6"
+              type="submit"
+            >
               Submit
             </button>
           </form>
           <p className="text-sm w-[300px] md:w-[609px] text-center pt-[25px] flex flex-col md:block">
-            By submitting this form, you agree to receive emails from Jiffix.
-            You can unsubscribe at any time. View our{" "}
-            <span className="underline my-2 md:my-0">Privacy Policy.</span>
+            By submitting this form, you agree to receive emails from Jiffix. You can unsubscribe at
+            any time. View our <span className="underline my-2 md:my-0">Privacy Policy.</span>
           </p>
         </div>
       </div>

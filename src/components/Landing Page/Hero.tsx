@@ -20,15 +20,13 @@ const Hero = () => {
             Be in Control of your greatest Assets
           </h1>
           <p className="text-xl font-normal md:w-[594px] md:text-left text-center w-[285px] my-10">
-            The most powerful and simplest way for Businesses to centralize all vehicle repair data
-            in one place and uncover cost-saving insights
+            The most intelligent way for Businesses to centralize all vehicle repair data in one
+            place and uncover cost-saving insights
           </p>
           <Link to="/gateway" className="relative">
             <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
             <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
-     
-              
         </div>
       </div>
     </section>

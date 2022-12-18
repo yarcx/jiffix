@@ -17,11 +17,8 @@ const BrandSection = () => {
   return (
     <section className="w-full flex items-center justify-center p-10 pt-20">
       <div className="md:w-11/12 flex items-center flex-col justify-between   ">
-        <div
-          data-aos="zoom-in-right"
-          className=" flex items-center flex-col md:gap-12 mb-10"
-        >
-         <div className="border-b-4 border-primary w-[80px]  md:w-[300px]  mb-12 md:my-10"></div>
+        <div data-aos="zoom-in-right" className=" flex items-center flex-col md:gap-12 mb-10">
+          <div className="border-b-4 border-primary w-[80px]  md:w-[300px]  mb-12 md:my-10"></div>
           <h1 className=" text-xl md:text-3xl font-bold w-[300px] md:w-full text-center">
             Working together to Build the Future
           </h1>
@@ -36,14 +33,18 @@ const BrandSection = () => {
           <img
             src={Total}
             alt="total logo"
-            className="w-[60px] h-[20px] md:w-[200px] md:h-[62.5px]"
+            className="w-[60px] object-contain h-[20px] md:w-[200px] md:h-[62.5px]"
           />
           <img
             src={Ngk}
             alt="ngk logo"
-            className="w-[60px] h-[20px] md:w-[145.88px] md:h-[48.03px]"
+            className="w-[60px] object-contain  h-[20px] md:w-[145.88px] md:h-[48.03px]"
           />
-          <img src={Aws} alt="Aws logo" className="w-[60px] h-[20px] md:w-[106.65px] md:h-[65px]" />
+          <img
+            src={Aws}
+            alt="Aws logo"
+            className="w-[60px] h-[20px] md:w-[106.65px] object-contain  md:h-[65px]"
+          />
         </div>
         <div
           data-aos="zoom-in-right"

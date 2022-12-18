@@ -17,7 +17,7 @@ const MobileNav = ({
   return (
     <div
       style={{ backgroundColor: !pricing ? "white" : "rgba(251, 169, 26, 0.2)" }}
-      className={`${isNavOpen ? "h-[85vh]" : "h-0"} transition-all ease-linear md:hidden w-full`}
+      className={`${isNavOpen ? "h-[94vh]" : "h-0"} transition-all ease-linear md:hidden w-full`}
     >
       {!landingPage && (
         <ul
@@ -49,7 +49,7 @@ const MobileNav = ({
             <GatewayButton text="Sign in" btnClass="bg-primary w-[155px] h-[60px] mb-16" />
           </li>
 
-          <button className="flex items-center border border-darkGray h-[60.62px] w-[186px] rounded-md text-left  gap-x-3 p-3 text-sm md:text-base">
+          <button className="flex items-center border border-darkGray h-[60.62px] w-[186px] rounded-md text-left gap-x-3 p-3 text-sm md:text-base">
             <img src={Apple} alt="" />
             <p>
               Download from <span className="text-base">App Store</span>
@@ -71,7 +71,7 @@ const MobileNav = ({
         <div className={`w-10/12 mx-auto`}>
           <div className="border-b-[0.5px] border-primary my-20"></div>
 
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-x-2">
             <Link to="/business">
               <GatewayButton
                 text="Businesses"

@@ -2,7 +2,11 @@ import React from "react";
 import Booking from "../components/Book Demo/Booking";
 
 const Businesses = () => {
-  return <Booking />;
+  return (
+    <div className="font-monts">
+      <Booking />
+    </div>
+  );
 };
 
 export default Businesses;
