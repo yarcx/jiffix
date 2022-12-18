@@ -28,7 +28,7 @@ const BrandSection = () => {
         </p>
         <div
           data-aos="zoom-in-left"
-          className="flex justify-between items-center w-full md:w-3/5 md:mb-[100px] my-20 "
+          className="flex justify-between items-center w-4/5 md:w-3/5 md:mb-[100px] my-20 "
         >
           <img
             src={Total}

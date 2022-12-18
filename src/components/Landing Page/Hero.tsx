@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
           <Link to="/gateway" className="relative">
             <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
-            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+            <span className="absolute top-4 right-12 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
         </div>
       </div>

@@ -10,7 +10,7 @@ const MainWorkshop = () => {
       <div className="flex w-full h-full items-center justify-center relative">
         <div className="md:flex items-center flex-col justify-center h-[950px] w-full  bg-secOrange relative hidden">
           <div className="border-2 border-lightPink w-[285px] h-[296px] border-dashed rounded-full  absolute top-[-80px] z-[1]"></div>
-          <div className="h-full flex  flex-col justify-center">
+          <div className="h-full flex  flex-col justify-center w-[592px]">
             {checkListItems.map(({ text }) => (
               <div className="flex items-center gap-10 mb-[35px]">
                 <img src={Check} alt="check" className="" />
