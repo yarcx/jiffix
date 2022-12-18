@@ -4,14 +4,14 @@ import GatewayButton from "../../Atoms/Gateway/GatewayButton";
 
 const SectionBeforeFooter = () => {
   return (
-    <section className="section min-h-max h-[48vh] bg-silver pb-20 md:pb-0">
+    <section className="section min-h-max h-[55vh] md:h-[48vh] bg-silver pb-20 md:pb-0">
       <div className="w-11/12 md:pb-0  mx-auto h-full flex items-center flex-col md:flex-row">
         <div
           data-aos="fade-up-left"
           data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="md:w-8/12 h-full pt-20 md:pt-0 flex flex-col items-center md:items-start md:justify-center relative"
+          className="md:w-8/12 h-full   pt-10 md:pt-0 flex flex-col items-center md:items-start md:justify-center relative"
         >
           <p className="text-md text-center md:text-left md:text-2xl mb-5">Try AutoHyve Now</p>
 

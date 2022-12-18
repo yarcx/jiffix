@@ -58,7 +58,9 @@ const BusinessSection = () => {
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
                     Visit Workshop as Usual
                   </h1>
+
                   <p className="md:text-lg text-[14px]">Driver or vehicle visits workshop, and estimates are sent via AutoHyve</p>
+
                 </div>
                 <div>
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
