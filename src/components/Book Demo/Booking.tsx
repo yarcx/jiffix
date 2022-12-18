@@ -35,10 +35,10 @@ const Booking = () => {
             </Link>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <h1 className="md:text-4xl text-2xl font-bold text-center pt-[35px]">
+            <h1 className="md:text-3xl text-2xl font-bold text-center pt-[35px]">
               Book your personalized demo
             </h1>
-            <p className="text-lg flex w-[300px] md:w-[609px] text-center pt-[25px]">
+            <p className="text-sm md:text-lg flex w-[300px] md:w-[609px] text-center pt-[25px]">
               We'd love to hear your specific needs and show you everything your
               team can do with AutoHyve. Let's find 15 minutes that work for you
             </p>

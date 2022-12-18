@@ -45,13 +45,13 @@ const Navbar = () => {
         <ul className="hidden md:flex justify-end w-1/3 gap-6">
           <li>
             <Link to="singin">
-              <button className="bg-secondary w-40 h-14 rounded">Sign In</button>
+              <button className="bg-secondary w-40 h-14 rounded text-sm">Sign In</button>
             </Link>
           </li>
           <li>
             <Link to="/gateway" className="relative">
-              <button className=" bg-primary  w-44 h-14 rounded">Start FREE Trial </button>
-              <span className="absolute top right-1 text-[#F80000] font-light text-xs">Beta</span>
+              <button className=" bg-primary  w-44 h-14 rounded text-sm">Start FREE Trial </button>
+              <span className="absolute top-[-8px] right-4 text-[#F80000] font-light text-xs">Beta</span>
             </Link>
           </li>
         </ul>
