@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   return (
     <section className="w-full bg-hero h-[86vh] bg-no-repeat bg-cover">
       <div className="linear_back  md:md_back h-full items-center flex flex-col justify-center w-full">
@@ -25,7 +22,7 @@ const Hero = () => {
           </p>
           <Link to="/gateway" className="relative">
             <button className="bg-secondary w-[248px] h-[75px] rounded">Start FREE Trial</button>
-            <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+            <span className="absolute top-4 right-12 text-[#F80000] font-light text-xs">Beta</span>
           </Link>
         </div>
       </div>

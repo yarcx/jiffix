@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import ngk from "../assets/iPhone 8 1.png";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import Ngk from "../../assets/ngk.png";
 import Total from "../../assets/total logo 1.png";
@@ -11,9 +9,7 @@ import Apple from "../../assets/Apple.png";
 import Google from "../../assets/google-playstore.png";
 
 const BrandSection = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   return (
     <section className="w-full flex items-center justify-center p-10 pt-20">
       <div className="md:w-11/12 flex items-center flex-col justify-between   ">
@@ -28,7 +24,7 @@ const BrandSection = () => {
         </p>
         <div
           data-aos="zoom-in-left"
-          className="flex justify-between items-center w-full md:w-3/5 md:mb-[100px] my-20 "
+          className="flex justify-between items-center w-4/5 md:w-3/5 md:mb-[100px] my-20 "
         >
           <img
             src={Total}

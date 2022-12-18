@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Safari from "../../assets/Safari Browser 1.png";
 import SafariBrowser from "../../assets/Safari Browser.png";
@@ -10,19 +8,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 
 const CorouselSection = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="w-full flex overflow-x-hidden">
       <div className="hidden w-full md:block">
-        <Carousel
-          autoPlay={true}
-          stopOnHover={true}
-          showArrows={true}
-          infiniteLoop={true}
-          swipeable={true}
-        >
+        <Carousel>
           <section className="">
             <FirstCarousel />
           </section>
@@ -76,10 +65,10 @@ const FirstCarousel = () => {
               billing, sub-standard parts, fundamental problems in vehicles, and predict part
               failures with built-in machine learning on a simple user-friendly interface.
             </p>
-            <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[700px] my-6">
+            <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[634px] my-6">
               {" "}
-              Check every estimate against your local repair history and global library for your
-              vehicle.
+              Check every estimate sent by your workshop or mechanic, against your local repair
+              history and global library for your vehicle.
             </p>
           </div>
         </div>
@@ -87,10 +76,13 @@ const FirstCarousel = () => {
           <img src={Safari} alt="safari logo" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
+
+      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-20">
         <Link to="/gateway" className="relative">
-          <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
-          <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+          <button className="bg-secondary w-[248px] h-[75px] rounded-lg text-sm">
+            Start FREE Trial
+          </button>
+          <span className="absolute top-5 right-14 text-[#F80000] font-light text-xs">Beta</span>
         </Link>
 
         <Link to="/workshop">
@@ -115,7 +107,7 @@ const SecondCarousel = () => {
               analytics, with built-in business intelligence
             </p>
 
-            <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[700px] my-6">
+            <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[634px] my-6">
               {" "}
               Your decision does not need to depend on excel sheets and formulas computation which
               takes days and weeks. Rather, your decision becomes more dynamic every day with global
@@ -127,14 +119,17 @@ const SecondCarousel = () => {
           <img src={Dashboard} alt="dashboard logo" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
+
+      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-20">
         <Link to="/gateway" className="relative">
-          <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
-          <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+          <button className="bg-secondary w-[248px] h-[75px] text-sm rounded-lg">
+            Start FREE Trial
+          </button>
+          <span className="absolute top-5 right-14 text-[#F80000] font-light text-xs">Beta</span>
         </Link>
 
-        <Link to="singin">
-          <button className="bg-primary w-[248px] h-[75px] rounded-lg">Book a Demo</button>
+        <Link to="/workshop">
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg text-sm">Book a Demo</button>
         </Link>
       </div>
     </div>

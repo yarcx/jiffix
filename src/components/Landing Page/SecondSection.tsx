@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const SecondSection = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+ 
   return (
     <section className="w-full flex items-center justify-center mt-20 mb-20">
       <div
