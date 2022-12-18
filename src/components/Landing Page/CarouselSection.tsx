@@ -78,8 +78,8 @@ const FirstCarousel = () => {
             </p>
             <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[634px] my-6">
               {" "}
-              Check every estimate sent by your workshop or mechanic, against your local repair
-              history and global library for your vehicle.
+              Check every estimate against your local repair history and global library for your
+              vehicle.
             </p>
           </div>
         </div>
@@ -87,16 +87,14 @@ const FirstCarousel = () => {
           <img src={Safari} alt="safari logo" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-20">
-      <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] rounded-lg text-sm">Start FREE Trial</button>
-            <span className="absolute top-5 right-14 text-[#F80000] font-light text-xs">Beta</span>
-          </Link>
+      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
+        <Link to="/gateway" className="relative">
+          <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
+          <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+        </Link>
 
-          <Link to="/workshop">
-          <button className="bg-primary  w-[248px] h-[75px] rounded-lg text-sm">
-            Book a Demo
-          </button>
+        <Link to="/workshop">
+          <button className="bg-primary  w-[270px] h-[75px] rounded-lg">Book a Demo</button>
         </Link>
       </div>
     </div>
@@ -113,9 +111,8 @@ const SecondCarousel = () => {
           </h1>
           <div className="">
             <p className="text-left md:text-center text-sm md:text-lg md:w-[670px]  ">
-              AutoHyve saves you time on reporting by making data easily
-              accessible for self-service analytics, with built-in business
-              intelligence
+              AutoHyve saves you time on reporting by making data easily accessible for self-service
+              analytics, with built-in business intelligence
             </p>
 
             <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[634px] my-6">
@@ -130,16 +127,14 @@ const SecondCarousel = () => {
           <img src={Dashboard} alt="dashboard logo" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-20">
-      <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] text-sm rounded-lg">Start FREE Trial</button>
-            <span className="absolute top-5 right-14 text-[#F80000] font-light text-xs">Beta</span>
-          </Link>
+      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
+        <Link to="/gateway" className="relative">
+          <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
+          <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+        </Link>
 
-          <Link to="/workshop">
-          <button className="bg-primary w-[248px] h-[75px] rounded-lg text-sm">
-            Book a Demo
-          </button>
+        <Link to="/workshop">
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg">Book a Demo</button>
         </Link>
       </div>
     </div>
@@ -178,16 +173,14 @@ const ThirdCarousel = () => {
           <img src={SafariBrowser} alt="safari browser logo" className="md:w-full" />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-26">
-      <Link to="/gateway" className="relative">
-            <button className="bg-secondary w-[248px] h-[75px] rounded-lg text-sm">Start FREE Trial</button>
-            <span className="absolute top-5 right-14 text-[#F80000] font-light text-xs">Beta</span>
-          </Link>
+      <div className="flex flex-col md:flex-row gap-10  md:pl-20   md:items-start items-center w-11/12 md:mt-0 mt-20">
+        <Link to="/gateway" className="relative">
+          <button className="bg-secondary w-[248px] h-[75px] rounded-lg">Start FREE Trial</button>
+          <span className="absolute top-4 right-9 text-[#F80000] font-light text-xs">Beta</span>
+        </Link>
 
         <Link to="/workshop">
-          <button className="bg-primary w-[248px] h-[75px] rounded-lg text-sm">
-            Book a Demo
-          </button>
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg">Book a Demo</button>
         </Link>
       </div>
     </div>

@@ -52,13 +52,13 @@ const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
                 <Link to="/business">
                   <GatewayButton
                     text="Businesses"
-                    btnClass="bg-silver flex items-center text-center justify-center text-sm rounded-[34px] min-w-[190px] px-6 h-[43px]"
+                    btnClass="bg-silver flex items-center text-center justify-center rounded-[34px] min-w-[190px] px-6 h-[43px]"
                   />
                 </Link>
                 <Link to="/workshop">
                   <GatewayButton
                     text="Workshops"
-                    btnClass="lightOrangeBg text-sm flex items-center text-center justify-center rounded-[34px] min-w-[190px] px-6 h-[43px]"
+                    btnClass="lightOrangeBg flex items-center text-center justify-center rounded-[34px] min-w-[190px] px-6 h-[43px]"
                   />
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const GatewayNavbar = ({ pricing }: { pricing?: boolean }) => {
             <li>
               <GatewayButton
                 text="Create a free account"
-                btnClass="bg-[#FBA91A] opacity-[0.65] md:text-base h-[53px] text-sm px-6  text-center flex items-center justify-center "
+                btnClass="bg-[#FBA91A] opacity-[0.65] h-[53px] px-6  text-center flex items-center justify-center "
               />
             </li>
           </ul>

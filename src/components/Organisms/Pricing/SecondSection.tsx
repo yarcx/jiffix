@@ -12,13 +12,13 @@ const SecondSection = () => {
     hyveFee: "96,500",
   });
   const calculatePercentage = (percentage: number) => {
-    let perc = (3.5 / 100) * percentage;
+    let perc = Math.floor((3.5 / 100) * percentage);
     if (Number.isNaN(percentage)) {
       setPercentValues({ settleYou: "0", hyveFee: "0" });
     } else {
       setPercentValues({
-        settleYou: perc > Number(CappedAmount) ? CappedAmount : perc + "",
-        hyveFee: percentage - perc + "",
+        settleYou: perc > Number(CappedAmount) ? CappedAmount : formatAmount(perc) + "",
+        hyveFee: formatAmount(percentage - perc) + "",
       });
     }
   };
@@ -86,12 +86,7 @@ const SecondSection = () => {
               <div className="md:max-w-[200px] overflow-hidden">
                 <label className="text-gray text-base font-semibold mb-5">WE’LL SETTLE YOU</label>
                 <p className="text-white font-bold text-xl">
-                  ₦{" "}
-                  <span>
-                    {typeof percentValues.hyveFee !== "string"
-                      ? formatAmount(percentValues.hyveFee as number)
-                      : percentValues.hyveFee}
-                  </span>
+                  ₦ <span>{percentValues?.hyveFee as string}</span>
                   .00
                 </p>
               </div>
@@ -100,12 +95,7 @@ const SecondSection = () => {
                   AUTOHYVE FEES (3.5%)
                 </label>
                 <p className="text-white font-bold text-xl">
-                  ₦{" "}
-                  <span>
-                    {typeof percentValues.hyveFee !== "string"
-                      ? Number(formatAmount(percentValues.settleYou as number)).toFixed()
-                      : (percentValues.settleYou as string)}
-                  </span>
+                  ₦ <span>{percentValues?.settleYou as string}</span>
                   .00
                 </p>
               </div>

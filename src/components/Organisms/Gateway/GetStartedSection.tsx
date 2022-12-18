@@ -5,17 +5,17 @@ import mobileIphone from "../../../assets/gateway/mobileIphone.png";
 const Summary = ({ title, text }: { title: string; text: string }) => {
   return (
     <div className="md:pr-10 mb-14">
-      <h3 className="text-left leading-normal font-semibold text-black  text-xl md:text-2xl">
+      <h3 className="text-left leading-normal font-semibold text-black  sm:text-xl text-base md:text-2xl">
         {title}
       </h3>
-      <p className="text-base font-normal mt-1">{text}</p>
+      <p className="text-sm md:text-base font-normal mt-1">{text}</p>
     </div>
   );
 };
 
 const GetStartedSection = () => {
   return (
-    <div className="font-monts my-32 min-h-screen">
+    <div className="font-monts mt-32 mb-20 min-h-screen">
       <div className="mx-auto justify-center relative md:w-11/12 px-5 md:px-0 flex items-center">
         <div
           data-aos="zoom-in-up"
@@ -29,7 +29,7 @@ const GetStartedSection = () => {
           }}
         >
           {/* left side */}
-          <div className="w-full md:w-1/2 pt-20">
+          <div className="w-full md:w-1/2 pt-10">
             <h1 className="mb-16 text-left leading-normal font-bold text-black text-2xl md:text-3xl">
               Get Started in 3 Steps
             </h1>
