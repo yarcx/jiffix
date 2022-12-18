@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { Link } from "react-router-dom";
 import Safari from "../../assets/Safari Browser 1.png";
 import SafariBrowser from "../../assets/Safari Browser.png";
@@ -10,9 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 
 const CorouselSection = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+ 
   return (
     <div className="w-full flex overflow-x-hidden">
       <div className="hidden w-full md:block">
