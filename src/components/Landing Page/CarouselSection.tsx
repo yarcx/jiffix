@@ -68,10 +68,8 @@ const FirstCarousel = () => {
             </p>
             <p className="text-left md:text-center md:text-lg text-sm w-[265px] md:w-[634px] my-6">
               {" "}
-
               Check every estimate sent by your workshop or mechanic, against
               your local repair history and global library for your vehicle.
-
             </p>
           </div>
         </div>
@@ -94,7 +92,6 @@ const FirstCarousel = () => {
           <button className="bg-primary  w-[248px] h-[75px] rounded-lg text-sm">
             Book a Demo
           </button>
-
         </Link>
       </div>
     </div>
@@ -111,8 +108,9 @@ const SecondCarousel = () => {
           </h1>
           <div className="">
             <p className="text-left md:text-center text-sm md:text-lg md:w-[670px]  ">
-              AutoHyve saves you time on reporting by making data easily accessible for self-service
-              analytics, with built-in business intelligence
+              AutoHyve saves you time on reporting by making data easily
+              accessible for self-service analytics, with built-in business
+              intelligence
             </p>
 
             <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[634px] my-6">
@@ -142,7 +140,6 @@ const SecondCarousel = () => {
           <button className="bg-primary w-[248px] h-[75px] rounded-lg text-sm">
             Book a Demo
           </button>
-
         </Link>
       </div>
     </div>
@@ -184,7 +181,7 @@ const ThirdCarousel = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-26">
+      <div className="flex flex-col md:flex-row gap-10  md:pl-[20px]   md:items-start items-center w-11/12 md:mt-0 mt-8">
         <Link to="/gateway" className="relative">
           <button className="bg-secondary w-[248px] h-[75px] rounded-lg text-sm">
             Start FREE Trial
@@ -195,7 +192,9 @@ const ThirdCarousel = () => {
         </Link>
 
         <Link to="/workshop">
-          <button className="bg-primary w-[248px] h-[75px] rounded-lg">Book a Demo</button>
+          <button className="bg-primary w-[248px] h-[75px] rounded-lg">
+            Book a Demo
+          </button>
         </Link>
       </div>
     </div>
