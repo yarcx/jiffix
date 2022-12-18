@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import Iphone from "../../assets/iPhone 8 1.png";
 
 const FIRST = "first";
@@ -13,9 +12,7 @@ const BusinessSection = () => {
   const changeTab = (text: string) => {
     setActive(text);
   };
-  useEffect(() => {
-    AOS.init();
-  }, []);
+ 
   return (
     <section className="w-full flex items-center justify-center">
       <div className="w-[360px] md:w-11/12 flex items-center flex-col justify-between iphone-bg pb-1 md:pb-0 md:mb-10 mt-20">
@@ -61,9 +58,9 @@ const BusinessSection = () => {
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
                     Visit Workshop as Usual
                   </h1>
-                  <p className="md:text-lg text-[14px]">
-                    Driver or vehicle visits workshop, and estimates are sent via AutoHyve
-                  </p>
+
+                  <p className="md:text-lg text-[14px]">Driver or vehicle visits workshop, and estimates are sent via AutoHyve</p>
+
                 </div>
                 <div>
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
