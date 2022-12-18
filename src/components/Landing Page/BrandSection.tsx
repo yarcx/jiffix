@@ -31,19 +31,19 @@ const BrandSection = () => {
         </p>
         <div
           data-aos="zoom-in-left"
-          className="flex justify-between items-center w-full md:w-3/5 md:mb-[100px] my-20 "
+          className="flex justify-between items-center w-4/5 md:w-3/5 md:mb-[100px] my-20 "
         >
           <img
             src={Total}
             alt="total logo"
-            className="w-[60px] h-[20px] md:w-[200px] md:h-[62.5px]"
+            className="w-[45px] h-[20px] md:w-[200px] md:h-[62.5px]"
           />
           <img
             src={Ngk}
             alt="ngk logo"
-            className="w-[60px] h-[20px] md:w-[145.88px] md:h-[48.03px]"
+            className="w-[45px] h-[20px] md:w-[145.88px] md:h-[48.03px]"
           />
-          <img src={Aws} alt="Aws logo" className="w-[60px] h-[20px] md:w-[106.65px] md:h-[65px]" />
+          <img src={Aws} alt="Aws logo" className="w-[45px] h-[20px] md:w-[106.65px] md:h-[65px]" />
         </div>
         <div
           data-aos="zoom-in-right"
