@@ -52,30 +52,24 @@ const BusinessSection = () => {
             >
               <div className="md:w-[552px] flex flex-col text-left justify-between px-8 md:p-0 items-center gap-12 md:items-start">
                 <div>
-                  <h1 className="md:text-2xl  text-[14px] font-semibold">
-                    Sign up
-                  </h1>
+                  <h1 className="md:text-2xl  text-[14px] font-semibold">Sign up</h1>
                   <p className="md:text-lg text-[14px]">
-                    Create an account with your name, email, phone number and
-                    company name
+                    Create an account with your name, email, phone number and company name
                   </p>
                 </div>
                 <div className="w-full">
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
                     Visit Workshop as Usual
                   </h1>
-                  <p className="md:text-lg text-[14px]">
-                    Visit Workshop as Usual
-                  </p>
+                  <p className="md:text-lg text-[14px]">Visit Workshop as Usual</p>
                 </div>
                 <div>
                   <h1 className="md:text-2xl  text-[14px] font-semibold">
                     Receive Estimate/Invoices
                   </h1>
                   <p className="md:text-lg text-[14px]">
-                    Manager receives estimate on AutoHyve for processing and
-                    payment e.g. query estimate for active warranties,
-                    double/false billing, substandard part
+                    Manager receives estimate on AutoHyve for processing and payment e.g. query
+                    estimate for active warranties, double/false billing, substandard part
                   </p>
                 </div>
                 <div>
@@ -83,8 +77,7 @@ const BusinessSection = () => {
                     Enjoy Real-time Analytics
                   </h1>
                   <p className="md:text-lg text-[14px]">
-                    Enjoy unique insights on your vehicles in real-time and on a
-                    recurring basis
+                    Enjoy unique insights on your vehicles in real-time and on a recurring basis
                   </p>
                 </div>
 
@@ -93,11 +86,7 @@ const BusinessSection = () => {
                 </button>
               </div>
               <div className=" flex md:h-[700px] md:w-[600px] justify-end">
-                <img
-                  src={Iphone}
-                  alt="phone logo"
-                  className="w-10/12 mx-auto"
-                />
+                <img src={Iphone} alt="phone logo" className="w-10/12 mx-auto" />
               </div>
             </div>
           ) : (
@@ -109,12 +98,9 @@ const BusinessSection = () => {
             >
               <div className="md:w-[552px] flex flex-col text-left justify-between px-8 md:p-0 items-center gap-12 md:items-start">
                 <div>
-                  <h1 className="md:text-2xl  text-[14px] font-semibold">
-                    Sign up
-                  </h1>
+                  <h1 className="md:text-2xl  text-[14px] font-semibold">Sign up</h1>
                   <p className="md:text-lg text-[14px]">
-                    Create an account with your name, email, phone number and
-                    company name
+                    Create an account with your name, email, phone number and company name
                   </p>
                 </div>
                 <div className="w-full">
@@ -123,8 +109,8 @@ const BusinessSection = () => {
                   </h1>
                   <p className="md:text-lg text-[14px]">
                     {" "}
-                    AutoHyve Gateway is the workshop facing interface providing
-                    the platform to raise estimates and invoices
+                    AutoHyve Gateway is the workshop facing interface providing the platform to
+                    raise estimates and invoices
                   </p>
                 </div>
                 <div>
@@ -132,9 +118,8 @@ const BusinessSection = () => {
                     Receive Estimate/Invoices
                   </h1>
                   <p className="md:text-lg text-[14px]">
-                    Manager receives estimate on AutoHyve for processing and
-                    payment e.g. query estimate for active warranties,
-                    double/false billing, substandard part
+                    Manager receives estimate on AutoHyve for processing and payment e.g. query
+                    estimate for active warranties, double/false billing, substandard part
                   </p>
                 </div>
                 <div>
@@ -142,8 +127,7 @@ const BusinessSection = () => {
                     Enjoy Real-time Analytics
                   </h1>
                   <p className="md:text-lg text-[14px]">
-                    Enjoy unique insights on your vehicles in real-time and on a
-                    recurring basis
+                    Enjoy unique insights on your vehicles in real-time and on a recurring basis
                   </p>
                 </div>
 
@@ -152,11 +136,7 @@ const BusinessSection = () => {
                 </button>
               </div>
               <div className=" flex  md:h-[700px] md:w-[600px] justify-end">
-                <img
-                  src={Iphone}
-                  alt="phone logo"
-                  className="w-10/12 mx-auto"
-                />
+                <img src={Iphone} alt="phone logo" className="w-10/12 mx-auto" />
               </div>
             </div>
           )}

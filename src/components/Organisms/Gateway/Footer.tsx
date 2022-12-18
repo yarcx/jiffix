@@ -3,6 +3,7 @@ import blackLogo from "../../../assets/blackLogo.png";
 import Facebook from "../../../assets/svgs/Facebook";
 import InstagramIcon from "../../../assets/svgs/InstagramIcon";
 import LinkedInIcon from "../../../assets/svgs/LinkedInIcon";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const date = new Date();
   return (
@@ -23,7 +24,9 @@ const Footer = () => {
               <Facebook />
             </li>
             <li>
-              <LinkedInIcon />
+              <a rel="nofollow" href="https://www.linkedin.com/company/myautohyve/">
+                <LinkedInIcon />
+              </a>
             </li>
           </ul>
         </div>
