@@ -117,7 +117,7 @@ const SecondCarousel = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center  mb-[-50px]">
+        <div className="flex items-center justify-center  mb-[-50px] mt-10">
           <img src={Dashboard} alt="dashboard logo" />
         </div>
       </div>
