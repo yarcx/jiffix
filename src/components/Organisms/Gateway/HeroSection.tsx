@@ -7,6 +7,7 @@ import company3 from "../../../assets/gateway/logo_cfao_3.png";
 import company4 from "../../../assets/gateway/logo_cfao_4.png";
 import heroBanner from "../../../assets/gateway/bannerImg.png";
 import ellipse1 from "../../../assets/gateway/ellipse1.png";
+import { Link } from "react-router-dom";
 
 const HeroImages = ({ src, alt }: { src: string; alt: string }) => {
   return (
@@ -49,14 +50,18 @@ const HeroSection = () => {
           </div>
           {/* Button sections */}
           <div className="mb-8 mt-20 flex items-cneter md:justify-start justify-between gap-x-4 md:gap-x-7">
-            <GatewayButton
-              text="Create a free account"
-              btnClass="bg-orange h-[60px] md:h-[70px] px-4 md:px-6 text-center flex items-center justify-center w-[180px]  md:w-[240px]"
-            />
-            <GatewayButton
-              text="Request Demo"
-              btnClass="bg-silver h-[60px] md:h-[70px] px-6 md:px-6 text-center flex items-center justify-center w-[180px]  md:w-[240px]"
-            />
+            <Link to="/business">
+              <GatewayButton
+                text="Create a free account"
+                btnClass="bg-orange h-[60px] md:h-[70px] px-4 md:px-6 text-center flex items-center justify-center w-[180px]  md:w-[240px]"
+              />
+            </Link>
+            <Link to="/workshop">
+              <GatewayButton
+                text="Request Demo"
+                btnClass="bg-silver h-[60px] md:h-[70px] px-6 md:px-6 text-center flex items-center justify-center w-[180px]  md:w-[240px]"
+              />
+            </Link>
           </div>
 
           {/* dashboard Image that shows on mobile */}

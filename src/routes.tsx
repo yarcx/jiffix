@@ -21,15 +21,6 @@ const router = createBrowserRouter([
     element: <Workshop />,
   },
   {
-    path: "/signup",
-    element: (
-      <div>
-        <h1 className="text-5xl text-center font-bold underline">Jiffix Signup Page</h1>
-        <DemoNavigator />
-      </div>
-    ),
-  },
-  {
     path: "/gateway",
     element: <Gateway />,
   },
