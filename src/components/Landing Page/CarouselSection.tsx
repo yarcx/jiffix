@@ -53,9 +53,9 @@ const FirstCarousel = () => {
       data-aos-easing="linear"
       className="w-11/12 flex items-center flex-col  mx-auto  md:h-[690px] justify-center bg-lightGray rounded-[40px]  p-8 pr-10"
     >
-      <div className="flex items-center justify-around flex-col md:flex-row">
-        <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
-          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
+      <div className="flex items-center justify-start flex-col md:flex-row">
+        <div className="flex  items-center  flex-col justify-start   gap-5 md:gap-16 md:p-10">
+          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px] w-[264px]">
 
             Save up to 25% on your annual maintenance cost
           </h1>
@@ -107,13 +107,10 @@ const SecondCarousel = () => {
             Make Decisions Easier and Faster
           </h1>
           <div className="">
-            <p className="text-left md:text-center text-sm md:text-lg md:w-[670px]  ">
+            <p className=" md:text-center text-sm md:text-lg md:w-[670px]  ">
               AutoHyve saves you time on reporting by making data easily accessible for self-service
               analytics, with built-in business intelligence
-            </p>
-
-            <p className="text-left md:text-center text-sm md:text-lg w-[265px] md:w-[634px] my-6">
-              {" "}
+           <br/>
               Your decision does not need to depend on excel sheets and formulas computation which
               takes days and weeks. Rather, your decision becomes more dynamic every day with global
               and local insights.
@@ -151,7 +148,7 @@ const ThirdCarousel = () => {
     >
       <div className="flex items-center justify-around flex-col md:flex-row">
         <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
-          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
+          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center w-[264px]  md:w-[478px]">
 
             Seamless Workshop Integration
           </h1>
