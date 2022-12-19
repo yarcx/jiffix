@@ -16,7 +16,7 @@ const BusinessSection = () => {
   return (
     <section className="w-full flex items-center justify-center">
       <div className="w-[360px] md:w-11/12 flex items-center flex-col justify-between iphone-bg pb-1 md:pb-0 md:mb-10 mt-20">
-        <div className=" md:w-11/12 flex md:items-center flex-col md:flex-row justify-around md:gap-4 md:pr-24 pt-10 md:pb-10">
+        <div className=" md:w-11/12 flex md:items-center flex-col md:flex-row justify-between md:gap-4 md:pr-24 pt-10 md:pb-10">
           <h1 className=" text-lg md:text-3xl font-bold ">
             Business Use Cases
           </h1>
@@ -45,9 +45,10 @@ const BusinessSection = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="flex items-center flex-col md:flex-row  justify-center  md:pl-10 md:w-11/12 gap-10"
+              className="flex items-center flex-col md:flex-row  justify-center  md:pl-0 md:w-11/12 gap-10"
             >
-              <div className="md:w-[552px] flex flex-col text-left justify-between px-8 md:p-0 items-center gap-12 md:items-start">
+              <div className="
+               flex flex-col text-left justify-between px-8 md:p-0 items-center gap-12 md:items-start">
                 <div>
                   <h1 className="md:text-2xl  text-[14px] font-semibold">Sign up</h1>
                   <p className="md:text-lg text-[14px]">
@@ -93,7 +94,7 @@ const BusinessSection = () => {
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="flex items-center flex-col md:flex-row  justify-center  md:pl-10 md:w-11/12 gap-10"
+              className="flex items-center flex-col md:flex-row  justify-center  md:pl-0 md:w-11/12 gap-10"
             >
               <div className="md:w-[552px] flex flex-col text-left justify-between px-8 md:p-0 items-center gap-12 md:items-start">
                 <div>
