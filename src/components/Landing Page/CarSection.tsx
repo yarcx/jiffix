@@ -79,7 +79,7 @@ const CarSection = () => {
             <img
               src={Car}
               alt=""
-              className="w-[300px] h-[180px] md:w-[600px] md:h-[350px] absolute z-1"
+              className="rotate w-[300px] h-[180px] md:w-[600px] md:h-[350px] absolute z-1"
             />
           </div>
         </div>
