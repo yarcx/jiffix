@@ -51,12 +51,12 @@ const FirstCarousel = () => {
     <div
       data-aos="fade-down"
       data-aos-easing="linear"
-      data-aos-duration="1500"
-      className="w-11/12 flex items-center flex-col mx-auto  md:h-[690px] justify-center bg-lightGray rounded-[40px] p-8 pr-10"
+      className="w-11/12 flex items-center flex-col  mx-auto  md:h-[690px] justify-center bg-lightGray rounded-[40px]  p-8 pr-10"
     >
       <div className="flex items-center justify-around flex-col md:flex-row">
-        <div className="flex md:w-1/2 md:items-center flex-col justify-center gap-x-5 md:gap-10 md:p-10">
-          <h1 className="text-lg md:text-3xl font-semibold text-left md:text-center md:w-[619px]">
+        <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
+          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
+
             Save up to 25% on your annual maintenance cost
           </h1>
           <div>
@@ -95,7 +95,12 @@ const FirstCarousel = () => {
 
 const SecondCarousel = () => {
   return (
-    <div className="w-11/12 flex items-center flex-col mx-auto md:h-[690px] justify-center bg-lightGray rounded-[40px]  p-8 pr-10">
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="w-11/12 flex items-center flex-col mx-auto md:h-[690px] justify-center bg-lightGray rounded-[40px]  p-8 pr-10"
+    >
       <div className="flex items-center justify-around flex-col md:flex-row">
         <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
           <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
@@ -142,11 +147,12 @@ const ThirdCarousel = () => {
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500"
-      className="w-11/12 flex items-center flex-col mx-auto justify-center   bg-lightGray rounded-[40px] md:h-[690px]  p-8 md:p-0  "
+      className="w-11/12 flex items-center flex-col mx-auto md:h-[690px] justify-center bg-lightGray rounded-[40px]  p-8 pr-10"
     >
       <div className="flex items-center justify-around flex-col md:flex-row">
-        <div className="flex md:w-1/2 md:items-center flex-col justify-center gap-x-5 md:gap-10 md:p-10">
-          <h1 className="text-lg md:text-3xl font-semibold text-left md:text-center md:w-[619px]">
+        <div className="flex  items-center  flex-col justify-center   gap-5 md:gap-16 md:p-10">
+          <h1 className=" text-lg md:text-3xl font-semibold text-left md:text-center   md:w-[478px]">
+
             Seamless Workshop Integration
           </h1>
           <div>
